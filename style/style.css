@@ -109,4 +109,11 @@
       .option-label {
         padding: 0.6rem 1rem;
       }
+
+      #restart-10-btn, #restart-20-btn{
+          width: 100%;
+          margin: 0px;
+          margin-bottom: 5px;
     }
+    }
+
