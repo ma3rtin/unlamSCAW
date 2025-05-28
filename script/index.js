@@ -51,15 +51,17 @@
       
       updateProgress();
       
-      let optionsHTML = question.options.map((option, index) => `
+      let optionsHTML = question.options.map((option, index) =>{
+        const letter = (String.fromCharCode(65 + index)).toLowerCase()
+        return `        
         <div class="form-check">
           <input class="form-check-input option-input" type="radio" 
                  name="question" id="option-${index}" value="${option}">
           <label class="form-check-label option-label w-100" for="option-${index}">
-            ${option}
+            <strong>${letter}</strong>) ${option}
           </label>
         </div>
-      `).join('');
+      `}).join('');
       
       elements.quizContainer.innerHTML = `
         <div class="card-body">
