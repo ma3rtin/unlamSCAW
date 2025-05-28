@@ -2,8 +2,8 @@
     // Banco de preguntas (60+ preguntas)
     // Configuración
     const config = {
-      totalQuestions: 20,
-      passingScore: 14
+      totalQuestions: 10,
+      passingScore: 7
     };
 
     // Estado
