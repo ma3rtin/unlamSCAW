@@ -1197,6 +1197,948 @@
       "Ninguna de las Anteriores es correcta"
     ],
     "answer": "CLARA"
-  }
+  },
+  // Unidad 3
+  {
+    "question": "En una Topología en Estrella, el Componente de Hardware que se caracteriza por hacer Difusión de los Paquetes (No conmuta), que conecta los Equipos Terminales a la misma se lo denomina:",
+    "options": [
+      "Concentrador",
+      "Enlace de Comunicaciones",
+      "Equipo Terminal",
+      "Multiplexación",
+      "Orden de Acceso",
+      "Monitor",
+      "Ambas a, b y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Concentrador"
+  },
+  {
+    "question": "El componente teleinformático de red que permite entregar señal de datos/canal de comunicaciones bajo difusión; que a su vez compensa la velocidad de los distintos medios físicos conectados al mismo y realiza la amplificación de la señal para retransmitirla se lo denomina:",
+    "options": [
+      "Módem",
+      "Router",
+      "Transceiver",
+      "Terminador",
+      "Vampiro",
+      "Hub",
+      "Land Driver",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Hub"
+  },
+  {
+    "question": "Dentro de un Nodo con varios Servidores con mucha carga de procesamiento, puede existir una computadora dedicada exclusivamente a las comunicaciones con el mundo exterior que la denominamos:",
+    "options": [
+      "Nodo",
+      "Hub",
+      "Access Server",
+      "Switch",
+      "Procesador FRONT-END",
+      "Monitor",
+      "Server",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Procesador FRONT-END"
+  },
+  {
+    "question": "En una Red con Topología en Estrella, el Componente de Software que realiza la administración y autenticación de accesos a los recursos de la red a través del Software de base que posee los perfiles del usuario para administrar en la Red se lo denomina:",
+    "options": [
+      "Nodo",
+      "Enlace de Comunicaciones",
+      "Equipo Terminal",
+      "Multiplexor",
+      "Access Server",
+      "Monitor",
+      "Active Directory",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Active Directory"
+  },
+  {
+    "question": "Para extender una LAN y unir dos segmentos de red a una distancia superior a los 600 metros podemos utilizar:",
+    "options": [
+      "Dos Módems y cableado de Fibra",
+      "Colocar solamente un cable UTP par Trenzado",
+      "Dos transceivers y Cableado de Fibra",
+      "Colocar Solamente una cable Coaxil fino con dos terminadores",
+      "Ambas b y d",
+      "Ninguna de las anteriores es Correcta"
+    ],
+    "answer": "Dos transceivers y Cableado de Fibra"
+  },
+  {
+    "question": "Dentro de una Topología de Red en Anillo, el control de conexión de los Nodos se puede realizar por:",
+    "options": [
+      "Control Centralizado",
+      "Control Monitoreado",
+      "Control a través de Computadora Stand Alone",
+      "Multiplexación",
+      "Control Distribuido",
+      "Ambas a y e",
+      "Ambas b y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Ambas a y e"
+  },
+  {
+    "question": "Un dispositivo de red que se desempeña como ROUTER trabaja dentro del modelo de OSI desde la Capa Física hasta la Capa Enlace de datos:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Falso"
+  },
+  {
+    "question": "El Componente de hardware de una computadora externo a la Unidad Central de Proceso que mantiene la misma conectada físicamente a la red; que realiza el filtrado de paquetes de manera tal de entregar al procesador y la memoria los paquetes que tienen como destino final el ordenador en cuestión se lo denomina:",
+    "options": [
+      "Conector",
+      "Transceiver",
+      "Interfaz de Red",
+      "Bus de Entrada y Salida",
+      "RS-232",
+      "Vampiro",
+      "Hub",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Interfaz de Red"
+  },
+  {
+    "question": "Dentro de los indicadores de control de un Hub /Concentrador existe aquel que mide el nivel de colisiones:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Verdadero"
+  },
+  {
+    "question": "Un dispositivo de red que se desempeña como BRIDGE trabaja dentro del modelo de OSI desde la Capa Física hasta la Capa Enlace de datos:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Verdadero"
+  },
+  {
+    "question": "Dentro de las funciones en la estructura de telefonía IP – Protocolo H323 se tienen el Procesamiento de Llamada, Señalización, Control de Llamada, Control de Medio (Compresión / descompresión), Programación de Interfaces a través de aplicaciones abiertas y configuración a través de Web Browser (Web Server). Estas funciones son realizadas por:",
+    "options": [
+      "Conversor Analógico/Digital",
+      "Switch",
+      "Call Manager",
+      "Web Manager",
+      "Softphones",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Call Manager"
+  },
+  {
+    "question": "El dispositivo de red que se utiliza para extender una LAN, que conecta dos segmentos de red y permite la regeneración de la señal amplificando la misma se lo denomina:",
+    "options": [
+      "Gateway",
+      "Router",
+      "Transceiver",
+      "Terminador",
+      "Monitor de red",
+      "hub",
+      "Land Driver/Repetidor",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Land Driver/Repetidor"
+  },
+  {
+    "question": "Dentro de las ventajas de la Telefonía IP podemos detallar las siguientes:",
+    "options": [
+      "Arquitectura Abierta",
+      "Arquitectura Cerrada",
+      "Interfaces Estándares",
+      "Dependencia de un fabricante Único",
+      "Escalabilidad y Flexibilidad",
+      "Desarrollo rápido de aplicaciones",
+      "Ambas a, c, e y f",
+      "Ambas b, d, e y f",
+      "Ninguna de las anteriores es Correcta"
+    ],
+    "answer": "Ambas a, c, e y f"
+  },
+  {
+    "question": "El objetivo de la instalación de un Encaminador o Router es:",
+    "options": [
+      "Segmentar grandes redes en más pequeñas",
+      "Actuar como barrera de seguridad entre segmentos de red",
+      "Evitar sobrecargas /saturaciones. direccionando la difusión de los paquetes",
+      "Permitir el salto a otra red para llegar a destino",
+      "Todas las Anteriores son Correctas",
+      "Ninguna de las anteriores es Correcta"
+    ],
+    "answer": "Todas las Anteriores son Correctas"
+  },
+  {
+    "question": "El tipo de Encaminador/Router que delimita rutas en forma automática con alternativas y cálculo de costos bajo una mínima configuración se lo denomina:",
+    "options": [
+      "Configurable",
+      "Estático",
+      "Dinámico",
+      "Adaptable",
+      "Virtual",
+      "Real",
+      "Primario",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Dinámico"
+  },
+  {
+    "question": "Para conectar dos redes de tipo LAN heterogéneas que utilizan distinta arquitectura, protocolos y formato de datos utilizamos:",
+    "options": [
+      "Gateway",
+      "Router",
+      "Bridge",
+      "Terminador",
+      "Monitor de red",
+      "Hub",
+      "Ninguna de las Anteriores es Correcta"
+    ],
+    "answer": "Gateway"
+  },
+  {
+    "question": "Una de las características de la telefonía IP es que cada teléfono registrado tiene una o dos copias de seguridad (Niveles de redundancia a Tres Niveles). Esto permite tener unir o dos Backups por cada teléfono. Esta característica se la denomina:",
+    "options": [
+      "Backup Sobre IP",
+      "Terminal de Backup",
+      "Clúster Redundante en disposición de N+1",
+      "Softphones",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las anteriores es Correcta"
+    ],
+    "answer": "Clúster Redundante en disposición de N+1"
+  },
+  {
+    "question": "El dispositivo multipuerto que actúa como eje de conmutación, simulando separación de segmentos de red y microsegmentador para permitir el envío de datos a alta velocidad se lo denomina:",
+    "options": [
+      "Gateways",
+      "Router",
+      "Bridge",
+      "Terminador",
+      "Monitor de red",
+      "Hub",
+      "Switch",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Switch"
+  },
+  {
+    "question": "Para conectar dos redes de tipo LAN homogéneas que utilizan la misma arquitectura, protocolos y formato de datos utilizamos:",
+    "options": [
+      "Gateway",
+      "Router",
+      "Bridge",
+      "Terminador",
+      "Monitor de red",
+      "Hub",
+      "Ninguna de las Anteriores es Correcta"
+    ],
+    "answer": "Bridge"
+  },
+  {
+    "question": "Dentro de los componentes de Telefonía sobre IP, para reutilizar los teléfonos analógicos de la instalación de Tipo PBX/Analógicos debemos utilizar:",
+    "options": [
+      "Un conversor Analógico-Digital (ATA)",
+      "Un Transceiver",
+      "Debe adquirir un Teléfono IP",
+      "Instalar un Softphone",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Un conversor Analógico-Digital (ATA)"
+  },
+  //Unidad 4
+   {
+    "question": "Dentro del Modelo de Protocolo Internet, los protocolos de transporte utilizados en la capa Host a Host son IP y UDP.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Falso"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP, cuando hablamos de un Puerto nos referimos a:",
+    "options": [
+      "Identificador único de un Nodo",
+      "Identificador único de un computador",
+      "Identificador único de un Servicio",
+      "Identificador único de una red",
+      "Ambas a y c",
+      "Ambas a y b",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Identificador único de un Servicio"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP, el Router utiliza un protocolo que le permite informar a los Routers vecinos que se encuentra fuera de servicio o congestionado. Dicho protocolo corresponde a:",
+    "options": [
+      "H323",
+      "ARP",
+      "DNS",
+      "NAT",
+      "Ambas a y b",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Ninguna de las Anteriores es correcta"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP, cuando nos referimos a ARP estamos haciendo mención de:",
+    "options": [
+      "El Protocolo de Resolución de dirección",
+      "Un Protocolo para Intercambio de Archivos de Correo Electrónico",
+      "Un algoritmo de compresión de datos",
+      "Un algoritmo de encriptación de datos",
+      "Ambas a y c",
+      "Ambas b y d",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "El Protocolo de Resolución de dirección"
+  },
+  {
+    "question": "En red LAN, la agrupación lógica de dispositivos y usuarios que están agrupados por función, aplicación o departamento sin tener en cuenta la ubicación del segmento físico se la denomina:",
+    "options": [
+      "LAN",
+      "Red Virtual",
+      "ISP",
+      "VPN",
+      "VLAN",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "VLAN"
+  },
+  {
+    "question": "Dentro del Modelo de Protocolo TCP/IP v4, la capa Internet cumple con las siguientes funciones:",
+    "options": [
+      "Encaminar los mensajes entre Redes",
+      "Interactuar con los Routers y Gateways",
+      "Utilizar los protocolos IP y ARP",
+      "Implementar las Direcciones IP",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Todas las Anteriores son correctas"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP v4, el esquema de direccionamiento abstracto tiene como Objetivo:",
+    "options": [
+      "Definir un Sistema de Direccionamiento Físico basado en las direcciones de los componentes de red",
+      "Ocultar detalles de redes físicas y ofrecer las características de una red virtual",
+      "Definir un esquema de direccionamiento abstracto asignando a cada Host una Dirección única",
+      "Definir un esquema de direccionamiento automático asignando a cada Host una Dirección Variable",
+      "Ambas a y c",
+      "Ambas b y c",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Ambas b y c"
+  },
+  {
+    "question": "Una red que tiene una combinación de Hardware y Software Heterogéneo, que entrega al usuario la apariencia de un sistema de comunicación integrado y uniforme al cual se conectan muchas computadoras se lo denomina:",
+    "options": [
+      "LAN",
+      "Red Virtual",
+      "ISP",
+      "VPN",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Red Virtual"
+  },
+  {
+    "question": "El Esquema de Datagrama IP nace con la necesidad de trabajar con redes heterogéneas, y permite el paso de un cuadro de una red a otra respetando el paquete original de manera tal de encapsularlo y que el mismo no sea modificado mientras se realice la transmisión:",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Verdadero"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP el/los componentes que intervienen en el proceso de la comunicación son:",
+    "options": [
+      "Computadora Host",
+      "Routers",
+      "La Pila de protocolos TCP/IP",
+      "Todas las Anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Todas las Anteriores son correctas"
+  },
+  {
+    "question": "El Router fronterizo (intranet–extranet) que tiene dos o más conexiones balanceadas, dentro de un host o nodo multibase trabaja soportando bajo el protocolo:",
+    "options": [
+      "ICMP",
+      "BGP",
+      "SMTP",
+      "FTP",
+      "SNMP",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "BGP"
+  },
+  {
+    "question": "La Interfaz de programación de aplicaciones que interactúa entre el Sistema Operativo y los Protocolos, que se diseñan para trabajar con aplicaciones concurrentes utilizando un grupo de protocolos y el servicio deseado se lo denomina:",
+    "options": [
+      "Puerto",
+      "Interrupción",
+      "API de Sockets",
+      "Protocolo",
+      "Servicio",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "API de Sockets"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/ IPV4, la dirección IP corresponde a un número de 32 Bits asignado a un Host y usado para todas las comunicaciones con él; a su vez aplica un esquema de jerarquía de direcciones utilizando el prefijo, para identificar a la red física que está conectada y el sufijo para identificar a cada host de la red.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Verdadero"
+  },
+  {
+    "question": "El protocolo simple de Gestión de Red utilizado por los monitores de red para relevar y controlar el desempeño de terminales en la misma se lo denomina:",
+    "options": [
+      "ICMP",
+      "BGP",
+      "SMTP",
+      "FTP",
+      "SNMP",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "SNMP"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/ IP V4, cuando nos referimos a un host multibase o sistema autónomo estamos hablando de:",
+    "options": [
+      "Un host que se conecta a una conexión de red",
+      "Un host que se conecta a varias conexiones de red",
+      "Un host que tiene definido una Intranet",
+      "Un host que tiene definido zonas dentro de su Intranet",
+      "Ambas a y c",
+      "Ambas b y d",
+      "Todas las anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Un host que se conecta a varias conexiones de red"
+  },
+  {
+    "question": "Una Red compartida topología estrella con un conmutador de capa 2 del modelo OSI se vale de direcciones para filtrar los cuadros de entrada a las distintas estaciones; para ello los formatos de direcciones corresponden a:",
+    "options": [
+      "Direcciones Físicas",
+      "Direcciones Dinámicas",
+      "Direcciones Estáticas",
+      "Todas las Anteriores es Correcta",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Direcciones Físicas"
+  },
+  {
+    "question": "Dentro de una red de dominio con recursos compartidos, la acción de copiar los cuadros en las interfaces de red realizada por un concentrador se la denomina:",
+    "options": [
+      "Enrutamiento",
+      "Conmutación",
+      "Difusión",
+      "Cacheo",
+      "Ubicación",
+      "Copia",
+      "Aviso",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Difusión"
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/ IP V4 De acuerdo con la cantidad máxima de redes y cantidad máxima de hosts por red se define la clase de la red que estamos evaluando para ver si es clase A, B o C.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": "Verdadero"
+  },
+  {
+    "question": "Un Cuadro de Tipo Identificable como unidad de transmisión de paquetes en una LAN está compuesto por una cantidad limitada de Bits, que tienen sus formatos de campos como:",
+    "options": [
+      "Preámbulo",
+      "Dirección del Destinatario",
+      "Dirección del Origen",
+      "Tipo de Paquete",
+      "Campo de datos",
+      "Campo CRC",
+      "Todas las anteriores son correctas",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Todas las anteriores son correctas"
+  },
+  {
+    "question": "Algunos cuadros no identificables se caracterizan por no incluir un campo de Tipo de cabecera de cuadro, por lo tanto, establecen previamente:",
+    "options": [
+      "Acuerdo entre emisor y receptor en el formato de datos a enviar",
+      "Envío de una señal de sincronismo por canal secundario de dos módems, uno maestro y otro esclavo",
+      "Acuerdo de almacenar en el primer byte el tipo de información",
+      "Ambas a y b",
+      "Ambas a y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Acuerdo entre emisor y receptor en el formato de datos a enviar"
+  },
+  {
+    "question": "El Protocolo de Internet versión 4 Ipv4 con los cambios tecnológicos permitió:",
+    "options": [
+      "El manejo de Redes Homogéneas Exclusivamente.",
+      "El manejo de Redes Heterogéneas.",
+      "Modelo de Direcciones Independiente del Hardware.",
+      "Modelo de Direcciones Dependiente del Hardware.",
+      "Ambas b y c.",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Ambas b y c."
+  },
+  {
+    "question": "El Proxy WAP traduce las peticiones WAP a peticiones Web, de forma que el cliente WAP (el terminal inalámbrico) pueda realizar peticiones de información al servidor Web. Adicionalmente este Proxy codifica las respuestas del servidor Web en un formato binario compacto, que es interpretable por el cliente.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Verdadero."
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP V4 de acuerdo a la cantidad mínima de redes y cantidad mínima de hosts por red se define la clase de la red que estamos evaluando para ver si es clase A, B o C.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Falso."
+  },
+  {
+    "question": "El protocolo estándar utilizado para mostrar información en pequeñas pantallas a través de conexiones celulares, basado en Wireless Markup Language (WML) (similar al HTML), preparado para que el cliente no requiera en sus dispositivos teclado o Mouse se lo denomina:",
+    "options": [
+      "WHOIS.",
+      "ICMP.",
+      "TraceRoute.",
+      "WAP.",
+      "Spoofing",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "WAP."
+  },
+  {
+    "question": "Dentro Protocolo de Internet Versión 6 Ipv6, la dirección posee 3 campos de elementos hexadecimales que corresponden a:",
+    "options": [
+      "Primeros 48 bits que corresponden al prefijo del sitio.",
+      "Primeros 32 bits que corresponden al sufijo del sitio.",
+      "Segundos 16 bits que corresponde al Identificador de Subred.",
+      "Segundos 32 bits que corresponde al Identificador de Subred.",
+      "Últimos 64 bits que corresponden a la dirección MAC del elemento.",
+      "Últimos 64 bits que corresponden a la dirección IPv4 del elemento.",
+      "Ambas a, c y e.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas a, c y e."
+  },
+  {
+    "question": "Los Protocolos más utilizados en Telefonía sobre IP corresponden a:",
+    "options": [
+      "ICMP.",
+      "H323.",
+      "SMTP.",
+      "SIP.",
+      "Ambas A y B.",
+      "Ambas B y D.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Ambas B y D."
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/IP V4, la dirección IP corresponde a un número de 34 Bits asignado a un Host y usado para todas las comunicaciones con él; a su vez aplica un esquema de jerarquía de direcciones utilizando el prefijo, para identificar a la red física que está conectada y el sufijo para identificar a cada host de la red.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Falso."
+  },
+  {
+    "question": "Dentro de la estructura del Protocolo H323 para telefonía IP, podemos decir que el Gatekeeper tiene la función de:",
+    "options": [
+      "Iniciar de la Llamada.",
+      "Autorizar y Rutear la Llamada.",
+      "Convertir los Paquetes IP a paquetes de Voz.",
+      "Realizar el Control Multipunto.",
+      "Controlar el Clúster redundante.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Autorizar y Rutear la Llamada."
+  },
+  {
+    "question": "El Protocolo de Internet Versión 6 Ipv6 posee un espacio de direcciones de 128 Bits. Los cambios en las cabeceras del Datagrama (Flujo Continuo de datos) permiten mejorar la calidad de transmisión de audio y video.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Verdadero."
+  },
+  {
+    "question": "El Esquema de Datagrama IP nace con la necesidad de trabajar con redes homogéneas, y permite el paso de un cuadro de una red a otra respetando el paquete original de manera tal de encapsularlo y que el mismo sea modificado mientras se realice la transmisión:",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Falso."
+  },
+  {
+  "question": "Dada una dirección clase B y máscara 255.255.255.240 ¿cuál es el máximo número de hosts y subredes útiles?",
+  "options": [
+    "Redes = 16; Hosts = 16",
+    "Redes = 4096; Hosts = 14",
+    "Redes = 4094; Hosts = 16",
+    "Redes = 4094; Hosts = 14",
+    "Redes = 4098; Hosts = 14",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Redes = 4094; Hosts = 14"
+},
+{
+  "question": "Dentro de la siguiente dirección IPv6 el sufijo marcado o los últimos 64 bits corresponden a:",
+  "options": [
+    "Identificador de Subred.",
+    "Identificador de Sitio.",
+    "ID de interfaz de Red o MAC.",
+    "Token",
+    "Ambas c y d.",
+    "Ninguna de las anteriores es Correcta."
+  ],
+  "answer": "Ambas c y d."
+},
+{
+  "question": "¿Qué clase de dirección IP me brinda la mayor cantidad de redes?",
+  "options": [
+    "Clase A.",
+    "Clase B.",
+    "Clase C.",
+    "Clase D.",
+    "Clase E.",
+    "Ninguna de las Anteriores es correcta."
+  ],
+  "answer": "Clase C."
+},
+{
+  "question": "¿Cuáles son los host válidos para 199.37.2.33/29?",
+  "options": [
+    "199.37.2.33 — 199.37.2.64",
+    "199.37.2.32 — 199.37.2.47",
+    "199.37.2.33 — 199.37.2.47",
+    "199.37.2.33 — 199.37.2.38",
+    "199.37.0.0 — 199.37.255.254",
+    "Ninguna de las Anteriores es correcta."
+  ],
+  "answer": "199.37.2.33 — 199.37.2.38"
+},
+{
+  "question": "¿Cuál es el rango de direcciones válidas para la dirección IP 222.37.2.50/24?",
+  "options": [
+    "222.37.2.49 — 222.37.2.62",
+    "222.37.2.48 — 222.37.2.66",
+    "222.37.2.1 — 222.37.2.254",
+    "222.37.0.0 — 222.37.255.254",
+    "222.37.2.0 — 222.37.2.255",
+    "Ninguna de las Anteriores es correcta."
+  ],
+  "answer": "222.37.2.1 — 222.37.2.254"
+},
+{
+  "question": "¿Sobre qué Subnet está el host 200.1.1.99/27?",
+  "options": [
+    "200.1.1.16",
+    "200.1.1.0",
+    "200.1.1.64",
+    "200.1.1.96",
+    "200.1.1.128",
+    "Ninguna de las Anteriores es correcta."
+  ],
+  "answer": "200.1.1.96"
+},
+{
+  "question": "Identifique la dirección de broadcast, dada la dirección IP 201.100.178.36 255.255.255.224",
+  "options": [
+    "201.100.178.64",
+    "201.100.178.63",
+    "201.100.255.255",
+    "201.100.78.255",
+    "201.255.255.255",
+    "255.255.255.255",
+    "Ninguna de las Anteriores es Correcta."
+  ],
+  "answer": "201.100.178.63"
+},
+{
+  "question": "El Siguiente Rango de direcciones IPv4 172.16.0.0 — 172.31.0.0 Representa a:",
+  "options": [
+    "Direcciones broadcast.",
+    "Direcciones de broadcast dirigido.",
+    "Direcciones Clase E.",
+    "Direcciones privadas.",
+    "Direcciones Multicast.",
+    "Direcciones Clase A.",
+    "Direcciones Clase D.",
+    "Ninguna de las Anteriores es correcta."
+  ],
+  "answer": "Direcciones privadas."
+},
+{
+  "question": "¿Qué clase de dirección tiene la menor cantidad de hosts para direccionar?",
+  "options": [
+    "Clase A.",
+    "Clase B.",
+    "Clase C.",
+    "Clase D.",
+    "Clase E.",
+    "Ninguna de las Anteriores es Correcta."
+  ],
+  "answer": "Clase C."
+},
+{
+  "question": "Dada la dirección 157.89.0.64 y la máscara 255.255.0.0 ¿qué parte representa la porción de host?",
+  "options": [
+    "0.0.0.66",
+    "0.89.8.64",
+    "0.0.0.68",
+    "157.0.0.0",
+    "157.89.0.0",
+    "Ninguna de las anteriores es Correcta."
+  ],
+  "answer": "Ninguna de las anteriores es Correcta."
+},
+{
+    "question": "¿Cuáles de las siguientes redes no pueden ser ruteadas públicamente?",
+    "options": [
+      "11.0.0.0",
+      "255.0.0.0",
+      "192.168.0.0",
+      "172.66.90.0",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "192.168.0.0"
+  },
+  {
+    "question": "Dada la dirección IP 140.90.109.120 con máscara 255.255.255.240. ¿En qué subnet está?",
+    "options": [
+      "140.90.109.0",
+      "140.90.109.96",
+      "140.90.109.112",
+      "140.90.109.128",
+      "148.90.109.112",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "140.90.109.112"
+  },
+  {
+    "question": "¿Cuáles de las siguientes redes se pueden ser ruteadas públicamente?",
+    "options": [
+      "192.168.0.0",
+      "10.0.0.0",
+      "172.16.0.0",
+      "200.0.0.0",
+      "200.0.0.255",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "200.0.0.0"
+  },
+  {
+    "question": "Identifique la dirección de broadcast, dada la dirección IP 201.100.178.36 con máscara 255.255.255.224",
+    "options": [
+      "201.100.178.63",
+      "201.255.255.255",
+      "201.100.78.255",
+      "255.255.255.255",
+      "Ambas a y b",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "201.100.178.63"
+  },
+  {
+    "question": "¿Cuál es la máscara de red correcta para la dirección 229.76.25.11 /26?",
+    "options": [
+      "255.255.255.0",
+      "255.255.255.224",
+      "255.255.255.192",
+      "255.255.255.240",
+      "Ambas a y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "255.255.255.192"
+  },
+  {
+    "question": "Identifique la clase de direcciones IP con su máscara por default.",
+    "options": [
+      "Clase B; /8",
+      "Clase C; 255.255.255.0",
+      "Clase B; 255.255.255.0",
+      "Clase B; 255.0.0.0",
+      "Ambas a y b",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Clase C; 255.255.255.0"
+  },
+  {
+    "question": "Usted tiene la dirección IP 172.16.3.57 con 11 bits de subnet. ¿Cuál es el rango de direcciones válidas?",
+    "options": [
+      "172.16.3.32 a 172.16.3.62",
+      "172.16.3.34 a 172.16.3.62",
+      "172.16.3.33 a 172.16.3.62",
+      "172.16.3.32 a 172.16.3.69",
+      "172.16.3.32 a 172.16.3.57",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "172.16.3.33 a 172.16.3.62"
+  },
+  {
+    "question": "La dirección IP 172.16.5.10 con máscara 255.255.255.0, ¿a qué dirección de red pertenece ese host y cuál es su dirección de broadcast?",
+    "options": [
+      "172.16.0.0 Broadcast = 172.16.5.255",
+      "172.16.5.0 Broadcast = 172.16.5.255",
+      "172.0.0.0 Broadcast = 255.0.0.0",
+      "172.0.0.0 Broadcast = 255.255.255.255",
+      "Ambas a y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "172.16.5.0 Broadcast = 172.16.5.255"
+  },
+  {
+    "question": "¿Cuál es el rango de direcciones válidas para la dirección 161.37.2.50 con 12 bits de subnetting?",
+    "options": [
+      "161.37.2.49 — 161.37.2.62",
+      "61.37.0.0 — 161.37.255.254",
+      "161.37.2.0 — 161.37.2.254",
+      "162.37.2.49 — 162.37.2.62",
+      "Ambas a y b",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "161.37.2.49 — 161.37.2.62"
+  },
+  {
+    "question": "Basados en la regla del primer octeto, ¿cuál es el rango de direcciones para la clase C?",
+    "options": [
+      "222--255",
+      "192--200",
+      "192--224",
+      "192—223",
+      "Ambas b y c",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "192—223"
+  },
+  {
+  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de las siguientes opciones es verdadera?",
+  "options": [
+    "RIP – Vector Distancia Enlace",
+    "EIRGP - Estado de Enlace",
+    "OSPF – Estado enlace",
+    "BGP – Vector distancia Mejorado",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "OSPF – Estado enlace"
+},
+{
+  "question": "Dado el siguiente esquema determinar cuál es la ruta estática correcta.",
+  "options": [
+    "ip route 20.0.0.0 255.0.0.0 172.168.1.1",
+    "ip route 20.0.0.0 255.0.0.0 192.168.1.1",
+    "ip route 20.0.0.0 255.0.0.0 222.168.1.1",
+    "ip route 20.0.0.0 255.0.0.0 072.168.1.1",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "ip route 20.0.0.0 255.0.0.0 172.168.1.1"
+},
+{
+  "question": "¿Cuál de las siguientes opciones es correcta respecto de los comandos para configurar una interfaz?",
+  "options": [
+    "(Router_config)# interface serial 0/0 (Router_config)# Ip address 192.168.1.2 255.255.0",
+    "(Router_config)# interface serial 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0",
+    "(Router_config)# interface serial_ethernet 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0",
+    "Ninguna de las Anteriores es Correcta"
+  ],
+  "answer": "(Router_config)# interface serial 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0"
+},
+{
+  "question": "¿Cuál de los siguientes comandos es correcto para pasar de modo usuario a modo privilegiado?",
+  "options": [
+    "Exit.",
+    "Enable password.",
+    "Enable.",
+    "Enable secret.",
+    "Ninguna de las Anteriores es Correcta"
+  ],
+  "answer": "Enable."
+},
+{
+  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de los siguientes Comandos es válido para la configuración de los protocolos de enrutamiento dinámico?",
+  "options": [
+    "Network RIP",
+    "Network “Nro.de red”.",
+    "Network Sist Autonomo.",
+    "Network “Nro Ip + Máscara“.",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Network “Nro.de red”."
+},
+{
+  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de los siguientes Comandos es válido para la configuración de los protocolos de enrutamiento dinámico?",
+  "options": [
+    "Router AFT.",
+    "Router EIGRP 200.",
+    "Router FTP.",
+    "Router OPDF.",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Router EIGRP 200."
+},
+{
+  "question": "Para ingresar en el modo de configuración global se debe hacer desde:",
+  "options": [
+    "Modo Usuario.",
+    "Modo dinámico.",
+    "Modo global.",
+    "Modo privilegiado.",
+    "Modo protegido",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Modo privilegiado."
+},
+{
+  "question": "Configuración de protocolo de Ruteo dinámico, ¿qué redes debo configurar?",
+  "options": [
+    "Las redes correspondientes a toda la red.",
+    "Las redes directamente conectadas al Router.",
+    "Las Subredes del Sistema Autónomo.",
+    "Las redes directamente conectadas al Firewall",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Las redes directamente conectadas al Router."
+},
+{
+  "question": "Comandos de Cisco: indique la secuencia correcta de comandos para iniciar el uso del modo Global:",
+  "options": [
+    "Router>; enable; Router# configure terminal -> Router(config_if)#",
+    "Router>; enable; Router# configure terminal -> Router(config)#",
+    "Router>; enable; Router# configure interface -> Router(config) #",
+    "Router>; enable; Router# RIP",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Router>; enable; Router# configure terminal -> Router(config)#"
+},
+{
+  "question": "¿Cuál de los siguientes comandos se utiliza para poder ver la tabla de Ruteo dentro de Cisco?",
+  "options": [
+    "Show Router.",
+    "Show Debug.",
+    "Show ip Route.",
+    "Show interfaces.",
+    "Ninguna de las Anteriores es correcta"
+  ],
+  "answer": "Show ip Route."
+}
 
     ];
