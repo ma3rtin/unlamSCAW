@@ -1,2144 +1,1192 @@
-    const questions = [
-      {
-    "question": "¿El puerto RS232 corresponde a una norma serie para comunicaciones asíncronas creada originalmente para definir la interacción entre una computadora y un módem?",
+const questions = [
+  {
+    "question": "Dentro de una Red WAN con tecnología ATM los circuitos conmutados establecidos entre nodo y nodo se los denomina:",
     "options": [
-      "Una norma serie de comunicaciones síncronas creada originalmente para definir la interacción entre una computadora y un módem.",
-      "Una norma serie para comunicaciones asíncronas creada originalmente para definir la interacción entre una computadora y un módem.",
-      "Una norma paralela para comunicaciones síncronas creada originalmente para definir la interacción entre una computadora y una impresora.",
-      "Una norma serie para comunicaciones síncronas creada originalmente para definir la interacción entre una computadora y un procesador Front-End.",
+      "Circuito Real.",
+      "Circuito Encaminado.",
+      "Circuito Virtual.",
+      "Canal Físico.",
+      "Transroute",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Circuito Virtual."
+  },
+  {
+    "question": "Dentro del Protocolo Frame Relay la unidad de transmisión o paquete a enviar por un sistema físico heterogéneo corresponde a la denominación de:",
+    "options": [
+      "Datagrama.",
+      "Cluster.",
+      "Frame o MTU.",
+      "NTFS",
+      "ISDN.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Frame o MTU."
+  },
+  {
+    "question": "Dentro de una Red WAN, cuando nos referimos a xDSL estamos hablando de:",
+    "options": [
+      "Una tecnología estandarizada de comunicaciones de alta velocidad.",
+      "Un tipo de servidor de acceso para módems.",
+      "Un tipo de DTU para canales punto a punto digital.",
+      "Una tecnología estandarizada de comunicaciones digitales.",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas a y d."
+  },
+  {
+    "question": "Dentro de una Red WAN, cuando nos referimos a SONET estamos hablando de:",
+    "options": [
+      "Una tecnología estandarizada de comunicaciones de alta velocidad.",
+      "Un tipo de servidor de acceso para módems.",
+      "Un Protocolo de Transporte para Redes en Anillos de Fibra Óptica.",
+      "Una tecnología estandarizada de comunicaciones digitales.",
+      "Un Protocolo de Transporte para Redes Privadas Virtuales.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Un Protocolo de Transporte para Redes en Anillos de Fibra Óptica."
+  },
+  {
+    "question": "Dentro de las Redes WAN con tecnología ATM se realiza la verificación de errores en los nodos que origina:",
+    "options": [
+      "La Corrección de los Paquetes.",
+      "La Detección de Errores.",
+      "La Retransmisión de los paquetes del origen.",
+      "Ambas a y c.",
+      "Ambas b y c",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas b y c"
+  },
+  {
+    "question": "La tecnología ISDN o lo que se denomina Red Digital de Servicios Integrados divide el ancho de banda en canales de acuerdo al siguiente detalle:",
+    "options": [
+      "Un Canal de Tipo D de 64 Kbps utilizado para información de Control.",
+      "Canales de Tipo B de 64 Kbps utilizados para Transmisión de Voz y Datos.",
+      "Canales de Tipo H de 64 Kbps utilizados para información de Control.",
+      "Canales de Tipo H de 64 Kbps utilizados para Transmisión de Voz y Datos.",
+      "Ambas a y b.",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Ambas a y b."
+  },
+  {
+    "question": "La contratación de Un Canal E1 para una portadora de WAN para acceder a Internet nos permite acceder a un ancho de banda de 2 MBPS sabiendo que dicho canal corresponde a los Estándares de normas europeas. El tipo de portadora contratada corresponde a:",
+    "options": [
+      "ISDN.",
+      "ADSL.",
+      "Cablemódem (HFC).",
+      "PDH-T-CARRIER.",
+      "X25.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "PDH-T-CARRIER."
+  },
+  {
+    "question": "Dentro de las portadoras para el transporte de información existe lo que se denomina PDH-T--CARRIER que corresponde a:",
+    "options": [
+      "Una tecnología estandarizada de comunicaciones para redes LANS.",
+      "Un tipo de servidor de acceso para módems.",
+      "Un Protocolo sincrónico de Transporte para Redes Fibra Óptica.",
+      "Un protocolo de transporte de alta velocidad de tipo Plesincrónico",
+      "Un Protocolo de Transporte para Redes Privadas Virtuales.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Un protocolo de transporte de alta velocidad de tipo Plesincrónico"
+  },
+  {
+    "question": "Las partes topológicas de una red de Cablemodem (HFC) como estructura de transporte de Video y Datos para Redes WAN de tipo híbrida corresponden a:",
+    "options": [
+      "Enlace Satelital.",
+      "Cabecera.",
+      "Red Troncal.",
+      "Red de Distribución.",
+      "Red de abonado.",
+      "Ambas a, b , c y d.",
+      "Ambas a, b, c y e.",
+      "Ambas b, c, d y e.",
+      "Ninguna de las anteriores es Correcta."
+    ],
+    "answer": "Ambas b, c, d y e."
+  },
+  {
+    "question": "La extensión aplicada de las redes Ethernet sobre un par de cable trenzado a distancias en Redes MAN de más de 1,800 metros se la denomina:",
+    "options": [
+      "HDSL.",
+      "LRE.",
+      "PDH-T-CARRIER.",
+      "ISDN.",
+      "SONET.",
+      "SLA.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "LRE."
+  },
+  {
+    "question": "Decimos que el Cablemódem es una estructura de transporte de Video y Datos para Redes WAN de tipo híbrida, que posee desde la cabecera hasta la red de abonado como medio físico de transmisión a:",
+    "options": [
+      "Microondas.",
+      "Cable Coaxil.",
+      "WIRELESS",
+      "Fibra Óptica Monomodo.",
+      "Ambas B y D.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas B y D."
+  },
+  {
+    "question": "El Protocolo Normalizado que correspondía a los primeros tres niveles del modelo OSI (Física, Enlace y Red), que trabaja bajo a una topología que se la denomina malla, con modo de transmisión asincrónica y aplica detección y corrección de errores corresponde a:",
+    "options": [
+      "X-25",
+      "ISDN.",
+      "ATM.",
+      "SDH - Sonet.",
+      "HDSL.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "X-25"
+  },
+  {
+    "question": "El Jitter es la variación en el tiempo en la llegada de los paquetes, causada por congestión de red, perdida de sincronización o por las diferentes rutas seguidas por los paquetes para llegar al destino y entre el punto inicial y final de la comunicación debiera ser inferior a 100 ms. Esta medida es parte del Protocolo:",
+    "options": [
+      "SLA.",
+      "ATM.",
+      "RFC.",
+      "LRE.",
+      "MPLS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SLA."
+  },
+  {
+    "question": "Cuando transportamos datos en un canal STM-4 para una portadora de WAN de acceso a Internet, que nos permite tener un ancho de banda de 622 MBPS, el tipo de tecnología utilizada corresponde a:",
+    "options": [
+      "ISDN.",
+      "ADSL",
+      "Cablemódem (HFC).",
+      "PDH-T-CARRIER.",
+      "SONET.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SONET."
+  },
+  {
+    "question": "La Red WAN, creada como backbone primario para Internet 2, que posee servicios de conexión de alto rendimiento entre puntos de agregación regional, que comenzó a prestar servicios en enero de 1999 y es resultante del Proyecto UCAID corresponde a:",
+    "options": [
+      "ARPANET.",
+      "MILNET.",
+      "ALOHA.",
+      "ABILENE.",
+      "STARTEL.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "ABILENE."
+  },
+  {
+    "question": "El Protocolo Normalizado de transporte de datos estándar creado por la IETF y definido en el RFC 3031, que opera entre la capa de enlace de datos y la capa de red del modelo OSI y fue diseñado para unificar el servicio de transporte de datos para las redes basadas en circuitos y las basadas en paquetes corresponde a:",
+    "options": [
+      "ATM.",
+      "ISDN.",
+      "X-25.",
+      "SDH - Sonet.",
+      "MPLS.",
+      "LRE.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "MPLS."
+  },
+  {
+    "question": "La tecnología HDSL es utilizada por las compañías de comunicaciones para entregar comunicaciones a Internet a centro de procesamiento de datos, con un ancho de banda superior a 1,54 MBPS, El canal ascendente y descendente de comunicaciones son del tipo:",
+    "options": [
+      "Simétrico.",
+      "Sincrónico.",
+      "Asimétrico.",
+      "Asincrónico.",
+      "Ambas a y b",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Ambas a y d."
+  },
+  {
+    "question": "La red de abonado, dentro de la estructura de cablemódem, es la última derivación de cable coaxial hasta la base de conexión de abonado. Para entregar la señal de Video y datos utiliza tecnología:",
+    "options": [
+      "ISDN",
+      "ADSL",
+      "HDSL.",
+      "PDH-E-CARRIER.",
+      "X25.",
+      "ATM.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "ADSL"
+  },
+  {
+    "question": "El protocolo plasmado en un documento de carácter legal por el que una compañía que presta un servicio de comunicaciones de transporte a otra, donde se compromete a prestar el mismo bajo unas determinadas condiciones y con unas prestaciones mínimas corresponde a:",
+    "options": [
+      "LRE.",
+      "ATM.",
+      "RFC.",
+      "SLA.",
+      "MPLS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SLA."
+  },
+  {
+    "question": "Una Red WAN telefónica, para realizar las llamadas entre corresponsales utiliza como principio básico para establecer los enlaces:",
+    "options": [
+      "Protocolo H323.",
+      "Conmutación de Paquetes.",
+      "Conmutación de Circuitos.",
+      "Protocolo SIP.",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Conmutación de Circuitos."
+  },
+  {
+    "question": "El Servicio/protocolo de red de tipo Protocolo Cliente –Servidor en el que generalmente un servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes conforme éstas van estando libres, sabiendo en todo momento quién ha estado en posesión de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después corresponde a:",
+    "options": [
+      "HTTP.",
+      "FTP.",
+      "SMTP.",
+      "DNS.",
+      "SNMP.",
+      "DHCP.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "DHCP."
+  },
+  {
+    "question": "El Servicio/ Protocolo de Internet, que implementa un Servicio de directorio (metadirectorio) Jerárquico y Distribuido, utilizado para administrar un repositorio centralizado de usuarios, aplicaciones y recursos y define permisos, configurados por el administrador para permitir el acceso a ciertos usuarios a la base de datos, y mantener información en privado corresponde a:",
+    "options": [
+      "LDAP.",
+      "FTP.",
+      "SMTP",
+      "DNS.",
+      "HTTP.",
+      "DHCP.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "LDAP."
+  },
+  {
+    "question": "El Protocolo de red que permite el intercambio de datos utilizando un canal seguro entre dos dispositivos conectados en red y permite emulación de Terminal en modo Túnel se lo denomina:",
+    "options": [
+      "DNS.",
+      "SSH.",
+      "ICMP.",
+      "TELNET.",
+      "SONET.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SSH."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio HTTPS estamos hablando de:",
+    "options": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto Seguro.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Protocolo Simple de Transferencia de Hipertexto Seguro."
+  },
+  {
+    "question": "El Reverse Proxy Server es un componente que aplica técnicas para:",
+    "options": [
+      "Resolver nombres de dominio.",
+      "Bloquear el acceso a puertos.",
+      "Optimizar el correo electrónico.",
+      "Asignar dinámicamente direcciones IP.",
+      "Realizar Balanceo de carga.",
+      "Realizar el NAT.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Realizar Balanceo de carga."
+  },
+  {
+    "question": "Dentro del Esquema del Protocolo TCP/ IP, y para identificar cada WWW, existe un sistema de nombres jerárquico que permite desarrollar el nombre a partir de una secuencia de segmentos alfanuméricos separados por puntos, teniendo la parte izquierda del mismo correspondiente al nombre de la computadora y los otros segmentos al grupo al cual pertenecen. Por lo tanto, nos estamos refiriendo al:",
+    "options": [
+      "Sistema de Nombres de Dominio (DNS).",
+      "Proxy Reverse.",
+      "Monitor de Web.",
+      "Ambas a y c.",
+      "Todas las Anteriores son Correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Sistema de Nombres de Dominio (DNS)."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el Sistema de Nombres de Dominio para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "options": [
+      "Puerto 80.",
+      "Puertos 20 y 21.",
+      "Puerto 25.",
+      "Puerto 53.",
+      "Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Puerto 53."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el servicio de Webmail, para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "options": [
+      "HTTP Puerto 80.",
+      "FTP Puertos 20 y 21.",
+      "SMTP Puerto 25.",
+      "DNS Puerto 53.",
+      "HTTP Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas a y e."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio FTPS estamos hablando de:",
+    "options": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ninguna de las Anteriores es correcta."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el Protocolo Simple de Transferencia de Correo, para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "options": [
+      "HTTP Puerto 80.",
+      "FTP Puertos 20 y 21.",
+      "SMTP Puerto 25.",
+      "DNS Puerto 53.",
+      "HTTP Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SMTP Puerto 25."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio IRC estamos hablando de:",
+    "options": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e Hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Protocolo mundial para intercambiar mensajes de texto en un canal."
+  },
+  {
+    "question": "El servicio RR-DNS (Round Robin DNS): es una herramienta que se utiliza para aplicar técnicas de:",
+    "options": [
+      "Cacheo de Páginas Webs.",
+      "Monitoreo de Reglas de firewall.",
+      "Monitoreo de Ancho de Banda.",
+      "Monitoreo de Correo Electrónico",
+      "Balanceo de Carga.",
+      "Monitoreo de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Balanceo de Carga."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, aquel que limita el tamaño de los archivos atacheados en el servicio de correo electrónico comunicaciones corresponde a:",
+    "options": [
+      "Proxy.",
+      "Monitor de Correo Electrónico.",
+      "Firewall.",
+      "Monitor de Ancho de Banda.",
+      "Radius.",
+      "Monitor de Pagina WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Monitor de Correo Electrónico."
+  },
+  {
+    "question": "Aquel servicio que se encarga de validar y dar acceso remoto a usuarios a la Red Interna se lo denomina:",
+    "options": [
+      "Firewall.",
+      "Proxy.",
+      "Proxy Reverse.",
+      "Access Server.",
+      "Active Directory.",
+      "Router.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Access Server."
+  },
+  {
+    "question": "El servicio que limita tiempos de acceso al uso de la red internet en lo que respecta a páginas Webs se lo denomina:",
+    "options": [
+      "Proxy.",
+      "Editor de Reglas.",
+      "Monitor de Ancho de Banda.",
+      "Monitor de Correo Electrónico.",
+      "Radius.",
+      "Monitor de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Monitor de Página WEB."
+  },
+  {
+    "question": "El servicio de internet que se encarga de Mantener un Cache Configurable (Activo/Pasivo) de los datos (páginas Webs) más solicitados o recientemente recuperados para mejorar la performance de respuesta ante solicitudes se lo denomina:",
+    "options": [
+      "Proxy.",
+      "Proxy Reverse.",
+      "Monitor de Ancho de Banda.",
+      "Monitor de Correo Electrónico.",
+      "Radius.",
+      "Monitor de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Proxy."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio SSH estamos hablando de:",
+    "options": [
+      "El acceso en modo terminal remoto a un equipo computador por canal encriptado.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e Hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "El acceso en modo terminal remoto a un equipo computador por canal encriptado."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio SMTP estamos hablando de:",
+    "options": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Protocolo Simple de transferencia de Correo."
+  },
+  {
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, El Firewall realiza una protección de nuestra red bloqueando las comunicaciones a través de los Puertos. Para configurar un servicio y poder ser ofrecido a través de los mismos debo hacer uso del:",
+    "options": [
+      "Proxy.",
+      "Editor de Reglas.",
+      "Monitor de Ancho de Banda.",
+      "Active Directory.",
+      "Radius.",
+      "Monitor de Pagina WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Editor de Reglas."
+  },
+  {
+    "question": "Decimos que el modelo Internet está basado en una red de redes con arquitectura o paradigma cliente-servidor, que aparte de los componentes físicos, hardware, protocolos, y Sistemas operativos la interacción cliente servidor necesita de:",
+    "options": [
+      "La aplicación del servidor.",
+      "La aplicación del cliente.",
+      "Un algoritmo de compresión de datos.",
+      "Un algoritmo de encriptación de datos.",
+      "Ambas a y c.",
+      "Ambas a y b.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas a y b."
+  },
+  {
+    "question": "El Componente de un nodo de Internet, que está compuesto por un conjunto de módems en línea con sus puertos conectados a accesos telefónicos unitarios o rotativos; que se encarga de filtrar los accesos bajo clave de identificación se lo denomina:",
+    "options": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Access Server."
+  },
+  {
+    "question": "Cuando configuramos a nuestros DNSs para realizar Asignación en forma cíclica respetando un orden a servicios WEBs, estamos aplicando una técnica de:",
+    "options": [
+      "Administración de Ancho de banda.",
+      "Administración de Web.",
+      "Balanceo de Carga.",
+      "Administración de Correo Electrónico.",
+      "Administración de Usuarios.",
+      "NAT.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Balanceo de Carga."
+  },
+  {
+    "question": "Una Computadora que se desempeña como Monitor de Red, compuesto por Hardware y Software, se caracteriza por ser:",
+    "options": [
+      "Un medidor de nivel de desempeño del Sistema de Red.",
+      "Un Servidor de Red que Exclusivamente comparte las tareas del monitoreo con la administración de Usuarios.",
+      "Un supervisor de Hechos específicos y labrador de estadísticas.",
+      "Un medidor de nivel de colisiones.",
+      "Ambas a, b y c.",
+      "Ambas a b y d.",
+      "Ambas a c y d.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas a c y d."
+  },
+  {
+    "question": "Un grupo de computadores (servidores) interconectados que a su vez actúan como un único servidor, que están localizados conjuntamente en una posición física determinada, manejando las peticiones realizadas por los usuarios a través de Internet se lo denomina:",
+    "options": [
+      "Host.",
+      "Intranet.",
+      "Montante.",
+      "Granja de Servidores.",
+      "DMZ.",
+      "Extranet.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Granja de Servidores."
+  },
+  {
+    "question": "Para poder bloquear un bombardeo de E-mails y aplicar la utilidad de filtro Spam se debe acceder al:",
+    "options": [
+      "Administrador de Ancho de banda.",
+      "Administrador de Web.",
+      "Balanceo de Carga.",
+      "Monitor de Correo Electrónico.",
+      "NAT.",
+      "Administrador de Usuarios.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Monitor de Correo Electrónico."
+  },
+  {
+    "question": "Para evitar el acceso de los usuarios a determinadas páginas de Internet que están prohibidas por la empresa se debe hacer uso y configurar el:",
+    "options": [
+      "DNS Primario.",
+      "Router.",
+      "WWW.",
+      "Proxy",
+      "Firewall.",
+      "Proxy Reverse",
+      "Monitor de Página Web o W-Manager",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Monitor de Página Web o W-Manager"
+  },
+  {
+    "question": "El elemento de un nodo de Internet, compuesto por un computador (Hardware y Software) que realiza el servicio de cachear las páginas más accedidas dentro del tiempo de acceso para acelerar la respuesta a la solicitud del usuario se lo denomina:",
+    "options": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy Reverse",
+      "Firewall.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ninguna de las Anteriores es correcta."
+  },
+  {
+    "question": "Para limitar el servicio de FTPS, dentro de un Dominio Respectivo, se debe modificar y acceder al:",
+    "options": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Firewall."
+  },
+  {
+    "question": "Cuando cambiamos de proveedor de comunicaciones (Telco), dicha empresa nos asigna un rango de direcciones IP públicas a los efectos de identificar nuestros servicios en la red de Internet. Por lo tanto, para ello ocurra se debe modificar la configuración de:",
+    "options": [
+      "El Servicio de Correo electrónico.",
+      "Router.",
+      "Firewall.",
+      "Proxy.",
+      "Registros DNS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Registros DNS."
+  },
+  {
+    "question": "El elemento de un nodo de Internet, compuesto por un computador (Hardware y Software) con interfaz de red multipuerto, que habilita o deshabilita servicios en forma parcial/global de acuerdo a las políticas de la organización se lo denomina:",
+    "options": [
+      "Access Server.",
+      "Router.",
+      "WWW",
+      "Proxy.",
+      "Firewall.",
+      "Servidor de Correo electrónico.",
+      "Monitor de Correo Electrónico.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Firewall."
+  },
+  {
+    "question": "Cuando observamos un aumento considerable dentro de las peticiones procedentes de los servicios WWW institucional y eso se traduce en lentitud para responder a las peticiones solicitadas podemos reconfigurar instalando un:",
+    "options": [
+      "Monitor de Página Web o Web Manager.",
+      "Router Adicional.",
+      "Monitor de Correo electrónico o E Manager.",
+      "Servidor Balanceador de Carga.",
+      "Servidor de Transacciones Intermedias.",
+      "Otro Proxy.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Servidor Balanceador de Carga."
+  },
+  {
+    "question": "El programa o software de administración instalado en el Firewall o en proximidad, que Registra alertas de ataques en un Archivo el Origen, de donde proviene la incursión (Dirección IP), El Servicio, el Puerto, la Fecha y Hora de cuando fue realizado el Intento se lo denomina:",
+    "options": [
+      "Firewall.",
+      "IDS.",
+      "Relevador de Alertas.",
+      "Router.",
+      "Monitor de Red",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "IDS."
+  },
+  {
+    "question": "Dentro de los primeros servicios de Internet, aquel elemento basado en uno o varios servidores; que permite visualizar directorios, acceder a información a través de una interfaz basada en menú y trabaja con componentes como Ítems, Documentos, Bookmark corresponde a:",
+    "options": [
+      "Gopher.",
+      "Archie.",
+      "Wais.",
+      "Finger.",
+      "BBS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Gopher."
+  },
+  {
+    "question": "El Dispositivo que separa/protege dos redes asegurando la unidireccionalidad en el flujo de información permitiendo que la información de una red llegue a otra red (pero no viceversa) corresponde a:",
+    "options": [
+      "Firewall.",
+      "Proxy",
+      "Access Server.",
+      "Router.",
+      "Diodo de datos.",
+      "DNS",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Diodo de datos."
+  },
+  {
+    "question": "El firewall es un dispositivo de defensa perimetral que separa redes y filtra tráfico dependiendo de reglas predefinidas, También realiza las siguientes acciones:",
+    "options": [
+      "Protege a nuestra RED de ataques internos.",
+      "Protege a nuestra Red de accesos no autorizados.",
+      "Protege a nuestra Red de todos los ataques dañinos de malwares.",
+      "Releva las Alertas de Ataque cuando se producen.",
+      "Divide a la red en 3 zonas básicas, Interna, externa y DMZ.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Divide a la red en 3 zonas básicas, Interna, externa y DMZ."
+  },
+  {
+    "question": "El Software de Administración y control para Servidores de Acceso Remoto, que autentica las acciones de acceso remoto mediante las llamadas, protocolos y filtros y soporta la seguridad adicional de los servidores proxy corresponde a:",
+    "options": [
+      "Gopher.",
+      "TFTP.",
+      "Wais.",
+      "Finger.",
+      "Radius.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Radius."
+  },
+  {
+    "question": "Dentro de los primeros servicios de Internet, aquel servicio de Internet que publica basado en Bases de datos de documentos indexados bajo el Protocolo ANSI Z39.50 con acceso a través de Telnet corresponde a:",
+    "options": [
+      "Gopher.",
+      "Archie.",
+      "Wais.",
+      "Finger.",
+      "BBS.",
+      "Trace",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Wais."
+  },
+  {
+    "question": "Dentro de las técnicas de balanceo de carga, podemos detallar:",
+    "options": [
+      "Balanceo de Ruteo.",
+      "Balanceo de Peticiones.",
+      "Balanceo de Aplicaciones.",
+      "Balanceo de Sesiones.",
+      "Ambas B y D.",
+      "Ambas A y C.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Ambas B y D."
+  },
+  {
+    "question": "El Servidor especial encargado, entre otras cosas, de centralizar el tráfico entre Internet y una red privada, de forma que evita que cada una de las máquinas de la red interior tenga que disponer necesariamente de una conexión directa a la red. Al mismo tiempo contiene mecanismos que impiden accesos no autorizados desde el exterior hacia la red privada. Dicho servidor corresponde a:",
+    "options": [
+      "Firewall.",
+      "Proxy.",
+      "Access Server.",
+      "Router.",
+      "Monitor de Red.",
+      "Proxy Reverse",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Proxy."
+  },
+  {
+    "question": "EL Modelo de N-Tiers (N-Capas) es un concepto utilizado en Arquitectura Cliente-Servidor en Redes de Procesamiento de datos centralizadas y nace con la necesidad de compartir aplicaciones centralizadas en distintas computadoras y que las mismas otorguen servicios a través de Internet. A su vez normaliza las aplicaciones centralizándolas en capas para que el Procesamiento sea seguro y confiable.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Falso."
+  },
+  {
+    "question": "El Protocolo IP Sec utilizado para realizar encriptación de datos aplicable a redes remotas y heterogéneas puede ser configurado como:",
+    "options": [
+      "Modo Túnel.",
+      "Modo Digital.",
+      "Modo Transporte.",
+      "Modo Analógico",
+      "Ambas A y C.",
+      "Ambas B y C.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Modo Túnel."
+  },
+  {
+    "question": "Dentro de los Beneficios del uso de la Firma Digital podemos destacar:",
+    "options": [
+      "Garantía de Procedencia.",
+      "Capacidad de Virtualizar.",
+      "Seguridad de no Intervención.",
+      "Identificación del firmante.",
+      "Todas las anteriores son correctas.",
+      "Hay más de una respuesta correcta.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "answer": "Hay más de una respuesta correcta."
+  },
+  {
+    "question": "La Norma técnica anunciada por VISA y MASTERCARD que incluye el uso de Certificados Digitales, que asegura y autentica la integridad de los participantes en una operación económica y su código aplica técnicas de criptografía manteniendo el carácter confidencial de la información se la denomina",
+    "options": [
+      "PGP.",
+      "Kerberos.",
+      "SET.",
+      "SSL.",
+      "IP Sec.",
+      "S/MIME.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "SET."
+  },
+  {
+    "question": "La Pieza electrónica que prueba la identidad de su propietario, así como el derecho a acceder a la información están basados en la norma estándar para los certificados digitales que corresponde a:",
+    "options": [
+      "RSA.",
+      "HASH.",
+      "DSA.",
+      "PGP.",
+      "X509.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "X509."
+  },
+  {
+    "question": "Dentro de la firma digital, La función o algoritmo aplicada a un mensaje de M bits, que da como resultado un Función de N bits y que constituye un resumen del mensaje original a transmitir dentro del sobre digital se la denomina:",
+    "options": [
+      "RSA.",
+      "DSA",
+      "HASH.",
+      "X509.",
+      "Ambas a y c.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "HASH."
+  },
+  {
+    "question": "El protocolo IP Sec cuando es configurado para transportar datos dentro de una red homogénea de tipo LAN en modo transporte encripta exclusivamente datos.",
+    "options": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "answer": "Verdadero."
+  },
+  {
+    "question": "El conjunto de datos asociados a un mensaje digital que permite garantizar la identidad del firmante y la integridad del mensaje se lo denomina:",
+    "options": [
+      "Certificado.",
+      "Firma Electrónica.",
+      "Firma Holográfica.",
+      "X509.",
+      "Firma Digital.",
       "Ninguna de las anteriores es correcta."
     ],
-    "answer": "Una norma serie para comunicaciones asíncronas creada originalmente para definir la interacción entre una computadora y un módem."
+    "answer": "Firma Digital."
   },
   {
-    "question": "¿Qué dispositivo se instala para solucionar la atenuación de la señal en cables multipar en comunicaciones serie asíncronas?",
+    "question": "El ataque Syn Flood se basa con el comienzo de cientos de conexiones a un servidor, e interrumpiéndola inmediatamente. Corresponde a un tipo de ataque:",
     "options": [
-      "Amplificador de Señal o Land Driver",
-      "Demodulador",
-      "Media Converter",
-      "Modulador",
-      "Multiplexor",
-      "Router",
-      "Ninguna de las anteriores es correcta"
+      "Fuerza Bruta.",
+      "Spoofing.",
+      "Autenticación.",
+      "Denegación de Servicio.",
+      "Escaneo de Puertos.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Amplificador de Señal o Land Driver"
+    "answer": "Denegación de Servicio."
   },
   {
-    "question": "¿Cómo se denomina el número de bits que pueden transmitirse por un circuito de datos por segundo y es sinónimo de Mbps?",
+    "question": "El Conjunto de Protocolos para soportar seguridad de intercambio de paquetes en VPNs estandarizado en IPv6 Se lo denomina:",
     "options": [
-      "Velocidad de Acceso a un Canal",
-      "Velocidad de Modulación",
-      "Tiempo de Acceso a un Canal",
-      "Jitter",
-      "Velocidad de Transmisión Serie",
-      "Ninguna de las anteriores es correcta"
+      "PGP.",
+      "Kerberos.",
+      "SET.",
+      "SSL.",
+      "IP Sec.",
+      "DH5.",
+      "AES.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Velocidad de Transmisión Serie"
+    "answer": "IP Sec."
   },
   {
-    "question": "¿Cómo se denomina el circuito que acepta una portadora modulada y recrea la secuencia de bits usada para demodular la portadora?",
+    "question": "Existe un programa que permite verificar la ruta que realiza un conjunto de Paquetes o bloques de información a través de una Red de Internet. Dicho servicio debe estar bloqueado por nuestro Firewall para toda comunicación entrante en nuestra red. Este programa corresponde a:",
     "options": [
-      "Modulador",
-      "Repetidor",
-      "Codificador ASCII",
-      "Amplificador",
-      "Demodulador",
-      "Ninguna de las anteriores es correcta"
+      "WHOIS.",
+      "ICMP.",
+      "TraceRoute.",
+      "Finger.",
+      "Spoofing.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Demodulador"
+    "answer": "TraceRoute."
   },
   {
-    "question": "¿Qué convierte el medio de transmisión la Multiplexación por División de Tiempo (TDM)?",
+    "question": "La técnica de Jamming o Flooding o inundación es una técnica que busca generar solicitudes maliciosas a un servicio de internet con la finalidad de hacer que el mismo se sature o entre en un modo de espera, de esta forma anula o limita su funcionamiento. Dicho ataque de acuerdo con su tipo corresponde a:",
     "options": [
-      "Comunicaciones Sincrónicas Digitales",
-      "Un Espectro Amplio",
-      "Un Canal Compartido",
-      "Una Forma de Codificación",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es correcta"
+      "Fuerza Bruta",
+      "Ramsomware.",
+      "Denegación de Servicio",
+      "Escaneo de Puertos.",
+      "Autenticación.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Un Canal Compartido"
+    "answer": "Denegación de Servicio"
   },
   {
-    "question": "¿Qué problemas resuelve la Teleinformática o Telemática?",
+    "question": "Cuando nos referimos a MAC SPOOFING podemos afirmar que:",
     "options": [
-      "Conectividad entre equipos remotos.",
-      "Funciones de Sistema Operativo.",
-      "Comunicatividad entre funciones distribuidas de procesamiento de datos.",
-      "Funciones de Sistema Operativo. Funciones de Administración de Software de Aplicación.",
-      "Ambas a y c",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Ambas a y c"
-  },
-  {
-    "question": "¿Qué concepto se aplica al uso de portadoras en comunicaciones analógicas y digitales mediante una señal oscilante continua?",
-    "options": [
-      "Frecuencia",
-      "Asincronismo",
-      "Sincronismo",
-      "Codificación Digital",
-      "Ancho de Banda",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Ninguna de las anteriores es correcta"
-  },
-  {
-    "question": "¿Cómo se denomina el espectro acotado por la frecuencia más baja y más alta donde un emisor puede transmitir?",
-    "options": [
-      "Ancho de Banda",
-      "Tipo de Modulación",
-      "Tipo de Codificación",
-      "Frecuencia",
-      "Velocidad de Transmisión Serie",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Ancho de Banda"
-  },
-  {
-    "question": "¿Qué se denomina al número de veces por segundo que puede cambiar una señal portadora de estado (modulación)?",
-    "options": [
-      "Velocidad de Transmisión Serie",
-      "Jitter",
-      "Tiempo de acceso a un Canal",
-      "Velocidad de Acceso a un canal",
-      "Velocidad de Modulación",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Velocidad de Modulación"
-  },
-  {
-    "question": "¿Qué concepto se origina al transmitir dos o más señales portadoras en diferentes frecuencias en el mismo medio?",
-    "options": [
-      "Enrutamiento",
-      "Multiplexación por División de Tiempos",
-      "Ruido",
-      "Modulación por Codificación de Pulsos",
-      "Multiplexación por División de Frecuencias",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Multiplexación por División de Frecuencias"
-  },
-
-
-
-  {
-    "question": "¿Cómo se denomina la unidad de información compuesta por una cantidad de datos determinada en redes de computadoras?",
-    "options": [
-      "Sector",
-      "Cluster",
-      "CRC",
-      "Jitter",
-      "Paquete",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Paquete"
-  },
-  {
-    "question": "¿Cómo se denomina el acuerdo común que permite la conectividad y operatividad entre tecnologías de distintos fabricantes en redes de datos?",
-    "options": [
-      "Canal Homogéneo",
-      "Canal Asimétrico",
-      "Canal Heterogéneo",
-      "SLA",
-      "Canal Simétrico",
-      "Estándar de Red",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Estándar de Red"
-  },
-  {
-    "question": "¿Qué puede causar errores en la comunicación en sistemas de transmisión?",
-    "options": [
-      "Bits perdidos",
-      "Bits cambiados",
-      "Bits Espurios",
-      "Errores de paridad",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Todas las Anteriores son Correctas"
-  },
-  {
-    "question": "¿Cuál es el objetivo de aplicar modelos de estándares de redes en el uso de protocolos?",
-    "options": [
-      "Mejorar las Funciones de los Sistemas Operativos",
-      "La interconectividad o interconexión entre varias redes",
-      "El uso de distintos dispositivos para Internet y las Cosas",
-      "El uso en comunicaciones Inalámbricas",
-      "El uso correcto en comunicaciones de dispositivos Domóticos",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "La interconectividad o interconexión entre varias redes"
-  },
-  {
-    "question": "¿Los códigos autocorrectores de errores como la distancia de Hamming utilizan paridad en su operatoria?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "¿Cuál es la aplicación del bit de paridad dentro de una trama binaria en el proceso de comunicación?",
-    "options": [
-      "La detección de un error en la comunicación con posibilidad contraria.",
-      "El conteo de ceros para ver si la cantidad final es par.",
-      "El conteo de ceros para ver si la cantidad final es impar.",
-      "El conteo exclusivo de cantidad de Bits para controlar cuántos bits llegan al receptor.",
-      "Todas las anteriores son correctas.",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "La detección de un error en la comunicación con posibilidad contraria."
-  },
-  {
-    "question": "¿Dónde se envía la información de comprobación (CRC) dentro del paquete de datos?",
-    "options": [
-      "Otro bloque de datos sobre un Canal de datos.",
-      "Canal secundario separado de la información original.",
-      "Al comienzo dentro del mismo bloque de datos.",
-      "Al final dentro del bloque de datos.",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Al final dentro del bloque de datos."
-  },
-  {
-    "question": "¿Qué funciones cumplen los protocolos de comunicaciones durante el proceso de intercambio de información?",
-    "options": [
-      "Establecer el Canal de Comunicaciones en caso de ser conmutado.",
-      "Establecer la transmisión.",
-      "Efectuar la Transmisión.",
-      "Verificar la Transmisión.",
-      "Poner fin a la transmisión.",
-      "Realizar el Corte del Canal.",
+      "Es un tipo de ataque de robo de identidad.",
+      "Es una técnica para clonar la dirección MAC de un dispositivo de red.",
+      "Es una Técnica que se utiliza en comunicaciones inalámbricas.",
+      "Es una técnica para cambiar la dirección MAC de un dispositivo de red.",
       "Todas las Anteriores son Correctas.",
       "Ninguna de las Anteriores es correcta."
     ],
     "answer": "Todas las Anteriores son Correctas."
   },
   {
-    "question": "¿Cómo se denomina el conjunto operativo de programas utilizado para la transmisión de información?",
+    "question": "El Programa malicioso que restringe el acceso a determinadas partes o archivos del sistema operativo infectado, reteniendo el control del equipo y que encripta la información almacenada en el mismo para que no pueda ser accedida; solicitando un rescate financiero en criptomonedas para que sean desactivados se lo denomina:",
     "options": [
-      "Software de Base.",
-      "Protocolo.",
-      "Sistema Operativo.",
-      "Software de Control Exclusivamente",
-      "Software de Aplicación.",
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Spoofing.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
       "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Protocolo."
+    "answer": "Ramsomware."
   },
   {
-    "question": "¿El sistema CSMA/CD evita siempre las colisiones?",
+    "question": "Un Programa Antivirus dentro de un entorno de red controlado debe cumplir con las siguientes funciones:",
     "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Falso"
-  },
-  {
-    "question": "¿Las Pilas de Protocolos basadas en el modelo OSI están unidas a través de la Capa Transporte?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Falso"
-  },
-  {
-    "question": "¿El control de calidad y detección de errores dentro del modelo OSI se realiza en la capa de Transporte?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "¿La encriptación/desencriptación de datos se realiza en la capa de Presentación dentro del modelo OSI?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "¿Las Pilas de Protocolos basadas en el modelo OSI están unidas a través de la Capa Física?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "¿Cuáles son las fases correspondientes a la capa de Sesión en el modelo OSI?",
-    "options": [
-      "Establecimiento de la Conexión.",
-      "Detección de errores de comunicación.",
-      "Transferencia de Datos.",
-      "Liberación de la conexión",
-      "Ambas a, c, y d",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ambas a, c, y d"
-  },
-  {
-    "question": "¿En qué se basa el modelo de capas OSI?",
-    "options": [
-      "Un Proceso de Comunicaciones dividido en partes fácilmente manejables.",
-      "Un Proceso de Control de recepción y envío de paquetes exclusivamente.",
-      "Un modelo de capas Independientes y encapsuladas sin relación.",
-      "Ambas c y d.",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Un Proceso de Comunicaciones dividido en partes fácilmente manejables."
-  },
-  {
-    "question": "¿En qué capa del modelo OSI se define el formato del paquete a transmitir?",
-    "options": [
-      "Física",
-      "Red",
-      "Transporte",
-      "Aplicación",
-      "Enlace",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Enlace"
-  },
-  {
-    "question": "¿Cuál capa del modelo OSI define el hardware de red básico y las características mecánicas, eléctricas y funcionales?",
-    "options": [
-      "Enlace",
-      "Red",
-      "Transporte",
-      "Aplicación",
-      "Sesión",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ninguna de las Anteriores es correcta"
-  },
-  {
-    "question": "¿En qué capa del modelo OSI se controla la comunicación y el envío de mensajes a su destino entre terminales?",
-    "options": [
-      "Física",
-      "Red",
-      "Transporte",
-      "Aplicación",
-      "Sesión",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Red"
-  },
-  {
-    "question": "¿El orden de los paquetes enviados en un proceso de comunicación se controla en la capa de Transporte?",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-
-
-
-
-
-
-  {
-    "question": "¿Qué servicio de datos/directorio se encarga de registrar a nivel internacional los nombres de dominio que corresponden a una determinada dirección IP?",
-    "options": [
-      "InterNIC",
-      "NIC",
-      "IAB - Internet Activities Board",
-      "IETF Internet Engineering Task Force",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "InterNIC"
-  },
-  {
-    "question": "¿Cuáles son los elementos que componen la estructura de una red?",
-    "options": [
-      "Nodo",
-      "Enlace",
-      "Equipo Terminal",
-      "Multiplexación",
-      "Orden de Acceso",
-      "Monitor",
-      "Ambas a, b y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ambas a, b y c"
-  },
-  {
-    "question": "En una instalación de cableado estructurado, ¿cómo se denomina el espacio entre el techo y el entretecho por donde pasa el backbone?",
-    "options": [
-      "Montante",
-      "Work Área o Área de Trabajo",
-      "Acometida",
-      "Pleno",
-      "Ducto",
-      "Antetecho",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "Pleno"
-  },
-  {
-    "question": "¿Qué ventaja ofrece el trenzado del cable multipar?",
-    "options": [
-      "Limitar la energía electromagnética emitida por el alambre",
-      "El trenzado no ayuda a evitar la interferencia",
-      "El trenzado ayuda a evitar la interferencia",
-      "El trenzado se realiza para identificar el tipo de cable",
-      "Ambas a y b",
+      "La prevención de ejecución de código malicioso y su replicación en memoria.",
+      "La protección y bloqueo de Puertos",
+      "Analizar y buscar código malicioso desde archivos hasta comunicaciones (E-mail, tráfico Web, etc.) dentro de nuestro entorno de red, servidores y terminales.",
+      "Proteger con sistemas de encriptación la información a ser transportada por la red.",
+      "Ambas a y b.",
       "Ambas a y c",
-      "Ambas a y d",
-      "Ninguna de las Anteriores es correcta"
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es correcta."
     ],
     "answer": "Ambas a y c"
   },
   {
-    "question": "¿Cuál es el medio de transmisión que funciona mejor si hay trayectoria libre entre la antena transmisora y receptora?",
+    "question": "El tipo de ataque informático que consiste en una técnica de sniffing de paquetes circulantes e inyección de datos malignos para producir determinados resultados en comunicaciones inalámbricas se lo denomina:",
     "options": [
-      "Cable Multipar o Cable UTP",
-      "Cable Coaxil",
-      "Radio (Radio Frecuencia)",
-      "Microondas",
-      "Fibra Óptica",
-      "Ninguna de las Anteriores es correcta"
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Spoofing.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Microondas"
+    "answer": "Ninguna de las Anteriores es correcta."
   },
   {
-    "question": "¿Es verdadera la afirmación de que la topología tipo Bus es confiable con una cantidad limitada de máquinas (7 a 12)?",
+    "question": "El software o hardware subrepticio que se encarga de registrar las pulsaciones que se realizan en el teclado, para posteriormente memorizarlas en un archivo o enviarlas a través de internet se lo denomina:",
     "options": [
-      "Verdadero",
-      "Falso"
+      "Keylogger.",
+      "Ramsomware.",
+      "Jamming.",
+      "IDS.",
+      "Pharming.",
+      "Ninguna de las Anteriores es correcta."
     ],
+    "answer": "Keylogger."
+  },
+  {
+    "question": "Existe un tipo de peste o alimaña que funciona en su PC, sin su consentimiento o como parte de un consentimiento genérico, habitualmente se ejecuta en background y le abre ventanas emergentes en el programa navegador en concordancia con los sitios habituales que UD. visualiza. El tipo de malware corresponde a:",
+    "options": [
+      "Virus de Macro",
+      "Gusano.",
+      "Caballo de troya",
+      "Virus de sector de Arranque.",
+      "Spyware.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Spyware."
+  },
+  {
+    "question": "Cuando se realiza una ciberincursión que provoca el “DNS Hijacking” y “DNS Poisoning” que consisten en la publicación ilegítima de resolución de un dominio mediante la modificación de los registros de un servidor DNS, Dicho ataque corresponde a:",
+    "options": [
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Man in the Midlee.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Pharming."
+  },
+  {
+    "question": "El Conficker (2008) era un virus que apareció en Ucrania e infectaba computadoras con sistemas Windows PC, Server 2003 y 2008. El Malware desactivaba Servicios de Update, Windows Security Center, Sistema Antivirus Defender. A su vez bloqueaba cuentas de Usuario, inundaba ARP y volvía los controladores de dominio lentos. Usaba como modo de propagación las redes y los pendrives. El tipo de virus corresponde a:",
+    "options": [
+      "Virus de Macro.",
+      "Gusano.",
+      "Caballo de troya.",
+      "Virus de Arranque.",
+      "Virus de Script.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "answer": "Gusano."
+  },
+  {
+    "question": "Aquella incursión informática ilegal que tiene por objeto, el robo de datos personales de identidad e información de credenciales financieras; y a veces simula un sitio web para capturar datos de login con una pantalla de ingreso al sistema se la denomina:",
+    "options": [
+      "Keylogger.",
+      "Ramsomware.",
+      "Phishing.",
+      "Flooding.",
+      "Pharming.",
+      "Ninguna de las Anteriores es correcta"
+    ],
+    "answer": "Phishing."
+  },
+  {
+    "question": "La Tecnología Mimo que permite múltiples rutas de acceso a múltiples antenas que mejora considerable en cuanto a la velocidad de transferencia, una cobertura mayor, mayor capacidad de más usuarios conectados y una mayor estabilidad se aplica tanto en comunicaciones WI FI (802.11 AC) como en comunicaciones celulares (4G).",
+    "options": ["Verdadero", "Falso"],
     "answer": "Verdadero"
   },
   {
-    "question": "¿Qué ocurre si se corta uno de los tramos de cable en una red con topología Bus?",
-    "options": [
-      "La segmentación de la Red en dos partes",
-      "La caída total de la Red",
-      "El aumento de colisiones en los extremos del Nodo",
-      "La salida de servicio de los Terminadores en la red",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "La caída total de la Red"
-  },
-  {
-    "question": "¿Qué tipo de transmisión utiliza el satélite en las comunicaciones?",
-    "options": [
-      "Fibra Óptica",
-      "Guía de onda",
-      "Cable UTP",
-      "Microondas",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Microondas"
-  },
-  {
-    "question": "¿Cómo se denomina la forma en que los nodos de una red están conectados físicamente?",
-    "options": [
-      "Cableado Estructurado",
-      "Topología Física",
-      "Plano",
-      "Ubicación Teleinformática",
-      "Tendido Físico",
-      "Host",
-      "Ambas a y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Topología Física"
-  },
-  {
-    "question": "¿Qué ventajas ofrece el uso de fibra óptica como medio de transmisión?",
-    "options": [
-      "El uso de la luz evita la interferencia eléctrica",
-      "Su instalación requiere equipo especial para el pulido de los extremos",
-      "Las fibras pueden transportar pulsos a mayor distancia que los cables",
-      "La Reparación requiere equipo especial para empalmar las fibras",
-      "La fibra puede transportar más información que los alambres",
-      "La fibra transporta en un único medio mientras que el multipar necesita por lo menos 2 pares",
-      "Ambas a, c, e y f",
-      "Ambas a, b, d y e",
-      "Todas las anteriores son correctas",
-      "Ninguna de las anteriores es Correcta"
-    ],
-    "answer": "Ambas a, c, e y f"
-  },
-
-
-
-  {
-    "question": "¿Qué organización mundial coordina las direcciones IP y nombres de dominio?",
-    "options": [
-      "IEEE",
-      "IETF",
-      "ANSI",
-      "ICANN",
-      "IANA",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "ICANN"
-  },
-  {
-    "question": "¿Qué estándar describe la forma correcta de instalar un sistema de cableado estructurado?",
-    "options": [
-      "ISO 9001",
-      "IEEE 802.3",
-      "EIA/TIA 568",
-      "ANSI/TIA 569",
-      "EIA/TIA 570",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "EIA/TIA 568"
-  },
-  {
-    "question": "¿Cuál de las siguientes no es una topología de red reconocida?",
-    "options": [
-      "Estrella",
-      "Anillo",
-      "Bus",
-      "Árbol",
-      "Hexágono",
-      "Malla"
-    ],
-    "answer": "Hexágono"
-  },
-  {
-    "question": "¿Qué componente del cableado estructurado conecta el cable horizontal con los equipos de red?",
-    "options": [
-      "Backbone",
-      "Patch Panel",
-      "Rack",
-      "Work Area",
-      "Cable de parcheo (patch cord)",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Patch Panel"
-  },
-  {
-    "question": "¿Cuál de las siguientes afirmaciones sobre la fibra óptica es verdadera?",
-    "options": [
-      "Es inmune a interferencias electromagnéticas",
-      "Tiene mayor atenuación que el cobre",
-      "Es más barata que el cable UTP",
-      "No requiere conversores para señales eléctricas",
-      "Se usa solo para distancias cortas",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Es inmune a interferencias electromagnéticas"
-  },
-  {
-    "question": "¿Qué norma regula la disposición de espacios y rutas de telecomunicaciones dentro de un edificio?",
-    "options": [
-      "EIA/TIA 568",
-      "EIA/TIA 569",
-      "IEEE 802.11",
-      "ANSI/TIA 606",
-      "ISO 11801",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "EIA/TIA 569"
-  },
-  {
-    "question": "¿Qué categoría de cable UTP permite velocidades de hasta 1 Gbps?",
-    "options": [
-      "Categoría 3",
-      "Categoría 5",
-      "Categoría 5e",
-      "Categoría 6",
-      "Categoría 6a",
-      "Categoría 7"
-    ],
-    "answer": "Categoría 5e"
-  },
-  {
-    "question": "¿Qué elemento permite interconectar diferentes redes y determinar la mejor ruta para enviar datos?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Bridge",
-      "Access Point",
-      "Servidor"
-    ],
-    "answer": "Router"
-  },
-  {
-    "question": "¿Qué medio de transmisión se utiliza comúnmente para televisión por cable y redes antiguas Ethernet?",
-    "options": [
-      "Cable coaxial",
-      "Cable UTP",
-      "Fibra óptica",
-      "Par trenzado sin blindaje",
-      "Microondas",
-      "Bluetooth"
-    ],
-    "answer": "Cable coaxial"
-  },
-  {
-    "question": "¿Qué estándar se utiliza para redes inalámbricas Wi-Fi?",
-    "options": [
-      "IEEE 802.3",
-      "IEEE 802.5",
-      "IEEE 802.11",
-      "IEEE 802.15",
-      "IEEE 802.1Q",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "IEEE 802.11"
-  },
-
-  {
-    "question": "¿Cuál de las siguientes organizaciones está encargada del desarrollo de estándares para Internet?",
-    "options": [
-      "IEEE",
-      "ICANN",
-      "IETF",
-      "ISO",
-      "ANSI",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "IETF"
-  },
-  {
-    "question": "¿Qué tipo de dirección IP es 192.168.0.1?",
-    "options": [
-      "Pública",
-      "Privada",
-      "Estática",
-      "Dinámica",
-      "Multicast",
-      "Broadcast"
-    ],
-    "answer": "Privada"
-  },
-  {
-    "question": "¿Cuál es la principal función de un switch en una red de área local?",
-    "options": [
-      "Conectar redes diferentes",
-      "Filtrar paquetes por direcciones MAC",
-      "Transmitir datos a todos los puertos",
-      "Asignar direcciones IP",
-      "Conectar dispositivos inalámbricos",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Filtrar paquetes por direcciones MAC"
-  },
-  {
-    "question": "¿Qué componente forma parte del cableado backbone?",
-    "options": [
-      "Cable de parcheo",
-      "Panel de parcheo",
-      "Cable horizontal",
-      "Cable de fibra óptica",
-      "Work area",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Cable de fibra óptica"
-  },
-  {
-    "question": "¿Qué elemento representa un punto de consolidación en cableado estructurado?",
-    "options": [
-      "Rack",
-      "Patch Panel",
-      "Conector RJ45",
-      "Caja de empalme",
-      "CONEC",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Caja de empalme"
-  },
-  {
-    "question": "¿Cuál de las siguientes capas del modelo OSI se encarga de la entrega punto a punto de datos?",
-    "options": [
-      "Física",
-      "Enlace de datos",
-      "Red",
-      "Transporte",
-      "Sesión",
-      "Presentación"
-    ],
-    "answer": "Transporte"
-  },
-  {
-    "question": "¿Qué topología requiere menos cableado pero tiene el inconveniente de que si un cable se rompe, toda la red puede fallar?",
-    "options": [
-      "Estrella",
-      "Anillo",
-      "Bus",
-      "Malla",
-      "Árbol",
-      "Híbrida"
-    ],
-    "answer": "Bus"
-  },
-  {
-    "question": "¿Qué tipo de cable se recomienda para distancias largas y entornos con interferencia electromagnética?",
-    "options": [
-      "UTP",
-      "STP",
-      "Coaxial",
-      "Fibra óptica",
-      "Par trenzado blindado",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Fibra óptica"
-  },
-  {
-    "question": "¿Cuál de los siguientes no es un tipo de conector para cables de red?",
-    "options": [
-      "RJ11",
-      "RJ45",
-      "SC",
-      "ST",
-      "BNC",
-      "USB"
-    ],
-    "answer": "USB"
-  },
-  {
-    "question": "¿Qué organización es responsable de asignar direcciones IP a nivel global?",
-    "options": [
-      "ICANN",
-      "IETF",
-      "IEEE",
-      "ISO",
-      "ANSI",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "ICANN"
-  },
-  {
-    "question": "¿Qué dispositivo se utiliza para interconectar redes diferentes que utilizan protocolos distintos?",
-    "options": [
-      "Switch",
-      "Hub",
-      "Router",
-      "Gateway",
-      "Access Point",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Gateway"
-  },
-  {
-    "question": "¿Cuál de los siguientes dispositivos permite la conexión inalámbrica a una red?",
-    "options": [
-      "Switch",
-      "Router",
-      "Bridge",
-      "Access Point",
-      "Gateway",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Access Point"
-  },
-  {
-    "question": "¿Cuál de los siguientes estándares corresponde a redes inalámbricas?",
-    "options": [
-      "802.3",
-      "802.5",
-      "802.11",
-      "802.15",
-      "802.1Q",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "802.11"
-  },
-  {
-    "question": "¿Qué componente de red opera en la capa 2 del modelo OSI?",
-    "options": [
-      "Router",
-      "Switch",
-      "Gateway",
-      "Access Point",
-      "Firewall",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Switch"
-  },
-  {
-    "question": "¿Qué medio de transmisión es más susceptible a interferencias electromagnéticas?",
-    "options": [
-      "Fibra óptica",
-      "UTP",
-      "STP",
-      "Coaxial",
-      "Par trenzado blindado",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "UTP"
-  },
-  {
-    "question": "¿Cuál es la función principal de un servidor DNS?",
-    "options": [
-      "Asignar direcciones IP",
-      "Almacenar páginas web",
-      "Traducir nombres de dominio a direcciones IP",
-      "Proporcionar acceso remoto",
-      "Monitorear tráfico de red",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Traducir nombres de dominio a direcciones IP"
-  },
-  {
-    "question": "¿Qué elemento forma parte de la infraestructura del cableado horizontal?",
-    "options": [
-      "Router",
-      "Fibra óptica backbone",
-      "Cable UTP del área de trabajo",
-      "Switch de núcleo",
-      "ISP",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Cable UTP del área de trabajo"
-  },
-  {
-    "question": "¿Qué organización define estándares de red como Ethernet?",
-    "options": [
-      "IETF",
-      "ICANN",
-      "IEEE",
-      "ISO",
-      "ANSI",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "IEEE"
-  },
-  {
-    "question": "¿Qué protocolo se utiliza para asignar direcciones IP dinámicamente en una red?",
-    "options": [
-      "HTTP",
-      "FTP",
-      "DHCP",
-      "DNS",
-      "SNMP",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "DHCP"
-  },
-  {
-    "question": "¿Qué tipo de topología física se utiliza comúnmente en redes Ethernet modernas?",
-    "options": [
-      "Anillo",
-      "Bus",
-      "Estrella",
-      "Malla",
-      "Árbol",
-      "Híbrida"
-    ],
-    "answer": "Estrella"
-  },
-  {
-    "question": "¿Cuál de los siguientes elementos forma parte del cableado estructurado?",
-    "options": [
-      "Router",
-      "Switch",
-      "Patch panel",
-      "Servidor",
-      "Firewall",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Patch panel"
-  },
-  {
-    "question": "¿Qué protocolo se utiliza para la transferencia segura de archivos?",
-    "options": [
-      "FTP",
-      "SFTP",
-      "HTTP",
-      "SMTP",
-      "SNMP",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "SFTP"
-  },
-  {
-    "question": "¿Qué característica distingue a la fibra óptica de otros medios de transmisión?",
-    "options": [
-      "Mayor inmunidad a interferencias",
-      "Mayor grosor",
-      "Uso exclusivo en redes troncales",
-      "Menor capacidad de transmisión",
-      "Costo más bajo",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Mayor inmunidad a interferencias"
-  },
-  {
-    "question": "¿Cuál es la función de un firewall en una red?",
-    "options": [
-      "Ampliar la cobertura inalámbrica",
-      "Almacenar datos",
-      "Filtrar tráfico de red",
-      "Asignar direcciones IP",
-      "Traducir nombres de dominio",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Filtrar tráfico de red"
-  },
-  {
-    "question": "¿Qué tipo de dirección IP puede cambiar cada vez que un dispositivo se conecta a la red?",
-    "options": [
-      "Estática",
-      "Privada",
-      "Pública",
-      "Dinámica",
-      "IPv6",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Dinámica"
-  },
-  {
-    "question": "¿Qué tipo de cable utiliza conectores RJ-45?",
-    "options": [
-      "Coaxial",
-      "Fibra óptica",
-      "UTP",
-      "STP",
-      "Twinax",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "UTP"
-  },
-  {
-    "question": "¿Qué capa del modelo OSI se encarga de la entrega de extremo a extremo?",
-    "options": [
-      "Capa de red",
-      "Capa de enlace de datos",
-      "Capa física",
-      "Capa de transporte",
-      "Capa de sesión",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Capa de transporte"
-  },
-  {
-    "question": "¿Qué protocolo permite el acceso remoto seguro a otro equipo?",
-    "options": [
-      "Telnet",
-      "SSH",
-      "FTP",
-      "SMTP",
-      "SNMP",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "SSH"
-  },
-  {
-    "question": "¿Cuál es la dirección IP reservada para identificar al host local?",
-    "options": [
-      "192.168.0.1",
-      "0.0.0.0",
-      "255.255.255.255",
-      "127.0.0.1",
-      "8.8.8.8",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "127.0.0.1"
-  },
-  {
-    "question": "¿Qué entidad es responsable de la asignación global de direcciones IP?",
-    "options": [
-      "IETF",
-      "IEEE",
-      "ICANN",
-      "W3C",
-      "ISO",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "ICANN"
-  },
-  {
-    "question": "¿Cuál es la función principal del protocolo DHCP?",
-    "options": [
-      "Transferir archivos",
-      "Asignar direcciones IP automáticamente",
-      "Autenticar usuarios",
-      "Enviar correos electrónicos",
-      "Proporcionar acceso remoto",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Asignar direcciones IP automáticamente"
-  },
-  {
-    "question": "¿Cuál es el propósito principal del protocolo DNS?",
-    "options": [
-      "Conectar dispositivos a Internet",
-      "Resolver nombres de dominio a direcciones IP",
-      "Asignar direcciones IP dinámicas",
-      "Proteger contra ataques",
-      "Establecer túneles seguros",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Resolver nombres de dominio a direcciones IP"
-  },
-  {
-    "question": "¿Qué estándar especifica el cableado estructurado para edificios comerciales?",
-    "options": [
-      "IEEE 802.11",
-      "ISO 27001",
-      "TIA/EIA-568",
-      "TCP/IP",
-      "RFC 1918",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "TIA/EIA-568"
-  },
-  {
-    "question": "¿Qué componente se utiliza para conectar múltiples segmentos de red a nivel de enlace de datos?",
-    "options": [
-      "Router",
-      "Switch",
-      "Firewall",
-      "Servidor",
-      "Modem",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Switch"
-  },
-  {
-    "question": "¿Cuál de los siguientes es un protocolo de capa de aplicación?",
-    "options": [
-      "IP",
-      "TCP",
-      "UDP",
-      "HTTP",
-      "ICMP",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "HTTP"
-  },
-  {
-    "question": "¿Qué organización se encarga del desarrollo de estándares de Internet como el TCP/IP?",
-    "options": [
-      "IEEE",
-      "ISO",
-      "IETF",
-      "ICANN",
-      "W3C",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "IETF"
-  },
-  {
-    "question": "¿Qué tipo de red cubre un área geográfica extensa?",
-    "options": [
-      "LAN",
-      "MAN",
-      "WAN",
-      "PAN",
-      "SAN",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "WAN"
-  },
-  {
-    "question": "¿Cuál es la ventaja principal del cableado de fibra óptica frente al par trenzado?",
-    "options": [
-      "Mayor flexibilidad",
-      "Costo más bajo",
-      "Mayor alcance y ancho de banda",
-      "Fácil instalación",
-      "No requiere conectores",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Mayor alcance y ancho de banda"
-  },
-  {
-    "question": "¿Qué dirección IP pertenece a una red privada?",
-    "options": [
-      "192.168.1.1",
-      "8.8.8.8",
-      "172.33.45.1",
-      "11.0.0.1",
-      "1.1.1.1",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "192.168.1.1"
-  },
-  {
-    "question": "¿Qué dispositivo permite la interconexión de redes con diferentes direcciones IP?",
-    "options": [
-      "Switch",
-      "Bridge",
-      "Router",
-      "Access Point",
-      "Hub",
-      "Ninguna de las anteriores es correcta"
-    ],
-    "answer": "Router"
-  },
-  {
-    "question": "Dentro de la Organización de Internet, el Ente sin fines de lucro con base en los Estados Unidos, que coordina la asignación de direcciones IP, la administración de nombres de dominio utilizados por DNS, los identificadores de protocolo o los números de puerto utilizados por los protocolos TCP y UDP, la creación de políticas y tiene una responsabilidad general sobre estas asignaciones; Este organismo corresponde a:",
-    "options": [
-      "NIC",
-      "LACNIC",
-      "IRTF",
-      "ICANN",
-      "IETF",
-      "RIPE NCC",
-      "ARIN",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "ICANN"
-  },
-  {
-    "question": "Dentro de la Organización Nacional de Internet de un País, el Ente Nacional que cumple con la función de Administrar el Dominio Superior y responsable del registro de nombres de dominio de las personas físicas y jurídicas; Este organismo corresponde a:",
-    "options": [
-      "NIC",
-      "LACNIC",
-      "IRTF",
-      "ICANN",
-      "IETF",
-      "RIPE NCC",
-      "ARIN",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "NIC"
-  },
-  {
-    "question": "Dentro de una instalación de Cableado Estructurado, el lugar donde se realiza la conexión entre el cableado estructurado y el acceso exterior del ISP, que debe cumplir con la norma ANSI/EIA/TIA 569 se lo denomina:",
-    "options": [
-      "Montante",
-      "Work Área o Área de trabajo",
-      "Acometida",
-      "Pleno",
-      "Ducto",
-      "Antetecho",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Acometida"
-  },
-  {
-    "question": "La Organización Comercial que provee servicios o Acceso a Internet a sus Suscriptores u Organizaciones (TELCO) se la denomina:",
-    "options": [
-      "NAP",
-      "NXP",
-      "APP",
-      "ISP",
-      "IETF",
-      "RFP",
-      "RFC",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "ISP"
-  },
-  {
-    "question": "Dentro de la Organización de Internet, los Documentos de comunicación primario que dan información sobre los estándares y tecnologías corresponden a:",
-    "options": [
-      "Protocolos",
-      "RFC",
-      "APP",
-      "Estándar",
-      "IETF",
-      "RFP",
-      "ARIN",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "RFC"
-  },
-  {
-    "question": "La Red WAN Troncal Digital Nacional de Alta Capacidad conecta a once ciudades con una capacidad de 10 Gbps, que tiene como objetivo principal el desarrollo de Redes Avanzadas reservadas para las comunidades académicas. Esta red corresponde a:",
-    "options": [
-      "ABILENE",
-      "CLARA",
-      "ARPAC",
-      "STARNET-IP",
-      "IRIDIUM",
-      "ARPA",
-      "INNOVA RED",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "INNOVA RED"
-  },
-  {
-    "question": "Dentro de los Objetivos planteados con la creación de Internet 2 (WWW) podemos detallar:",
-    "options": [
-      "Transferir Tecnologías de www2 a www.",
-      "Reemplazar a WWW.",
-      "No reemplazar a WWW",
-      "Crear Aplicaciones para la Investigación",
-      "Ambas B, C y D",
-      "Ambas A, C y D",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "Ambas A, C y D"
-  },
-  {
-    "question": "Si UD realiza el control de sus sistemas en una red de subterráneos, distribuido en un área geográfica metropolitana (MAN), el backbone de comunicaciones puede estar soportado por:",
-    "options": [
-      "Fibra Óptica Multimodo.",
-      "Fibra Óptica Monomodo.",
-      "Par Trenzado UTP Cat 5e.",
-      "Microondas.",
-      "Wireless.",
-      "Guía de Onda.",
-      "Infrarrojo.",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Fibra Óptica Monomodo."
-  },
-  {
-    "question": "La Red WAN que entrega señal de comunicaciones con acceso a Internet 2 a la República Argentina corresponde a:",
-    "options": [
-      "ABILENE",
-      "CLARA",
-      "ARPAC",
-      "STARNET-IP",
-      "IRIDIUM",
-      "ARPA",
-      "vBNS",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "CLARA"
-  },
-  // Unidad 3
-  {
-    "question": "En una Topología en Estrella, el Componente de Hardware que se caracteriza por hacer Difusión de los Paquetes (No conmuta), que conecta los Equipos Terminales a la misma se lo denomina:",
-    "options": [
-      "Concentrador",
-      "Enlace de Comunicaciones",
-      "Equipo Terminal",
-      "Multiplexación",
-      "Orden de Acceso",
-      "Monitor",
-      "Ambas a, b y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Concentrador"
-  },
-  {
-    "question": "El componente teleinformático de red que permite entregar señal de datos/canal de comunicaciones bajo difusión; que a su vez compensa la velocidad de los distintos medios físicos conectados al mismo y realiza la amplificación de la señal para retransmitirla se lo denomina:",
-    "options": [
-      "Módem",
-      "Router",
-      "Transceiver",
-      "Terminador",
-      "Vampiro",
-      "Hub",
-      "Land Driver",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Hub"
-  },
-  {
-    "question": "Dentro de un Nodo con varios Servidores con mucha carga de procesamiento, puede existir una computadora dedicada exclusivamente a las comunicaciones con el mundo exterior que la denominamos:",
-    "options": [
-      "Nodo",
-      "Hub",
-      "Access Server",
-      "Switch",
-      "Procesador FRONT-END",
-      "Monitor",
-      "Server",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Procesador FRONT-END"
-  },
-  {
-    "question": "En una Red con Topología en Estrella, el Componente de Software que realiza la administración y autenticación de accesos a los recursos de la red a través del Software de base que posee los perfiles del usuario para administrar en la Red se lo denomina:",
-    "options": [
-      "Nodo",
-      "Enlace de Comunicaciones",
-      "Equipo Terminal",
-      "Multiplexor",
-      "Access Server",
-      "Monitor",
-      "Active Directory",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Active Directory"
-  },
-  {
-    "question": "Para extender una LAN y unir dos segmentos de red a una distancia superior a los 600 metros podemos utilizar:",
-    "options": [
-      "Dos Módems y cableado de Fibra",
-      "Colocar solamente un cable UTP par Trenzado",
-      "Dos transceivers y Cableado de Fibra",
-      "Colocar Solamente una cable Coaxil fino con dos terminadores",
-      "Ambas b y d",
-      "Ninguna de las anteriores es Correcta"
-    ],
-    "answer": "Dos transceivers y Cableado de Fibra"
-  },
-  {
-    "question": "Dentro de una Topología de Red en Anillo, el control de conexión de los Nodos se puede realizar por:",
-    "options": [
-      "Control Centralizado",
-      "Control Monitoreado",
-      "Control a través de Computadora Stand Alone",
-      "Multiplexación",
-      "Control Distribuido",
-      "Ambas a y e",
-      "Ambas b y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ambas a y e"
-  },
-  {
-    "question": "Un dispositivo de red que se desempeña como ROUTER trabaja dentro del modelo de OSI desde la Capa Física hasta la Capa Enlace de datos:",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Falso"
-  },
-  {
-    "question": "El Componente de hardware de una computadora externo a la Unidad Central de Proceso que mantiene la misma conectada físicamente a la red; que realiza el filtrado de paquetes de manera tal de entregar al procesador y la memoria los paquetes que tienen como destino final el ordenador en cuestión se lo denomina:",
-    "options": [
-      "Conector",
-      "Transceiver",
-      "Interfaz de Red",
-      "Bus de Entrada y Salida",
-      "RS-232",
-      "Vampiro",
-      "Hub",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Interfaz de Red"
-  },
-  {
-    "question": "Dentro de los indicadores de control de un Hub /Concentrador existe aquel que mide el nivel de colisiones:",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "Un dispositivo de red que se desempeña como BRIDGE trabaja dentro del modelo de OSI desde la Capa Física hasta la Capa Enlace de datos:",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Verdadero"
-  },
-  {
-    "question": "Dentro de las funciones en la estructura de telefonía IP – Protocolo H323 se tienen el Procesamiento de Llamada, Señalización, Control de Llamada, Control de Medio (Compresión / descompresión), Programación de Interfaces a través de aplicaciones abiertas y configuración a través de Web Browser (Web Server). Estas funciones son realizadas por:",
-    "options": [
-      "Conversor Analógico/Digital",
-      "Switch",
-      "Call Manager",
-      "Web Manager",
-      "Softphones",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Call Manager"
-  },
-  {
-    "question": "El dispositivo de red que se utiliza para extender una LAN, que conecta dos segmentos de red y permite la regeneración de la señal amplificando la misma se lo denomina:",
-    "options": [
-      "Gateway",
-      "Router",
-      "Transceiver",
-      "Terminador",
-      "Monitor de red",
-      "hub",
-      "Land Driver/Repetidor",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Land Driver/Repetidor"
-  },
-  {
-    "question": "Dentro de las ventajas de la Telefonía IP podemos detallar las siguientes:",
-    "options": [
-      "Arquitectura Abierta",
-      "Arquitectura Cerrada",
-      "Interfaces Estándares",
-      "Dependencia de un fabricante Único",
-      "Escalabilidad y Flexibilidad",
-      "Desarrollo rápido de aplicaciones",
-      "Ambas a, c, e y f",
-      "Ambas b, d, e y f",
-      "Ninguna de las anteriores es Correcta"
-    ],
-    "answer": "Ambas a, c, e y f"
-  },
-  {
-    "question": "El objetivo de la instalación de un Encaminador o Router es:",
-    "options": [
-      "Segmentar grandes redes en más pequeñas",
-      "Actuar como barrera de seguridad entre segmentos de red",
-      "Evitar sobrecargas /saturaciones. direccionando la difusión de los paquetes",
-      "Permitir el salto a otra red para llegar a destino",
-      "Todas las Anteriores son Correctas",
-      "Ninguna de las anteriores es Correcta"
-    ],
-    "answer": "Todas las Anteriores son Correctas"
-  },
-  {
-    "question": "El tipo de Encaminador/Router que delimita rutas en forma automática con alternativas y cálculo de costos bajo una mínima configuración se lo denomina:",
-    "options": [
-      "Configurable",
-      "Estático",
-      "Dinámico",
-      "Adaptable",
-      "Virtual",
-      "Real",
-      "Primario",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Dinámico"
-  },
-  {
-    "question": "Para conectar dos redes de tipo LAN heterogéneas que utilizan distinta arquitectura, protocolos y formato de datos utilizamos:",
-    "options": [
-      "Gateway",
-      "Router",
-      "Bridge",
-      "Terminador",
-      "Monitor de red",
-      "Hub",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "Gateway"
-  },
-  {
-    "question": "Una de las características de la telefonía IP es que cada teléfono registrado tiene una o dos copias de seguridad (Niveles de redundancia a Tres Niveles). Esto permite tener unir o dos Backups por cada teléfono. Esta característica se la denomina:",
-    "options": [
-      "Backup Sobre IP",
-      "Terminal de Backup",
-      "Clúster Redundante en disposición de N+1",
-      "Softphones",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las anteriores es Correcta"
-    ],
-    "answer": "Clúster Redundante en disposición de N+1"
-  },
-  {
-    "question": "El dispositivo multipuerto que actúa como eje de conmutación, simulando separación de segmentos de red y microsegmentador para permitir el envío de datos a alta velocidad se lo denomina:",
-    "options": [
-      "Gateways",
-      "Router",
-      "Bridge",
-      "Terminador",
-      "Monitor de red",
-      "Hub",
-      "Switch",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Switch"
-  },
-  {
-    "question": "Para conectar dos redes de tipo LAN homogéneas que utilizan la misma arquitectura, protocolos y formato de datos utilizamos:",
-    "options": [
-      "Gateway",
-      "Router",
-      "Bridge",
-      "Terminador",
-      "Monitor de red",
-      "Hub",
-      "Ninguna de las Anteriores es Correcta"
-    ],
-    "answer": "Bridge"
-  },
-  {
-    "question": "Dentro de los componentes de Telefonía sobre IP, para reutilizar los teléfonos analógicos de la instalación de Tipo PBX/Analógicos debemos utilizar:",
-    "options": [
-      "Un conversor Analógico-Digital (ATA)",
-      "Un Transceiver",
-      "Debe adquirir un Teléfono IP",
-      "Instalar un Softphone",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Un conversor Analógico-Digital (ATA)"
-  },
-  //Unidad 4
-   {
-    "question": "Dentro del Modelo de Protocolo Internet, los protocolos de transporte utilizados en la capa Host a Host son IP y UDP.",
-    "options": [
-      "Verdadero",
-      "Falso"
-    ],
-    "answer": "Falso"
-  },
-  {
-    "question": "Dentro del Esquema del Protocolo TCP/IP, cuando hablamos de un Puerto nos referimos a:",
-    "options": [
-      "Identificador único de un Nodo",
-      "Identificador único de un computador",
-      "Identificador único de un Servicio",
-      "Identificador único de una red",
-      "Ambas a y c",
-      "Ambas a y b",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Identificador único de un Servicio"
-  },
-  {
-    "question": "Dentro del Esquema del Protocolo TCP/IP, el Router utiliza un protocolo que le permite informar a los Routers vecinos que se encuentra fuera de servicio o congestionado. Dicho protocolo corresponde a:",
-    "options": [
-      "H323",
-      "ARP",
-      "DNS",
-      "NAT",
-      "Ambas a y b",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ninguna de las Anteriores es correcta"
-  },
-  {
-    "question": "Dentro del Esquema del Protocolo TCP/IP, cuando nos referimos a ARP estamos haciendo mención de:",
-    "options": [
-      "El Protocolo de Resolución de dirección",
-      "Un Protocolo para Intercambio de Archivos de Correo Electrónico",
-      "Un algoritmo de compresión de datos",
-      "Un algoritmo de encriptación de datos",
-      "Ambas a y c",
-      "Ambas b y d",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "El Protocolo de Resolución de dirección"
-  },
-  {
-    "question": "En red LAN, la agrupación lógica de dispositivos y usuarios que están agrupados por función, aplicación o departamento sin tener en cuenta la ubicación del segmento físico se la denomina:",
-    "options": [
-      "LAN",
-      "Red Virtual",
-      "ISP",
-      "VPN",
-      "VLAN",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "VLAN"
-  },
-  {
-    "question": "Dentro del Modelo de Protocolo TCP/IP v4, la capa Internet cumple con las siguientes funciones:",
-    "options": [
-      "Encaminar los mensajes entre Redes",
-      "Interactuar con los Routers y Gateways",
-      "Utilizar los protocolos IP y ARP",
-      "Implementar las Direcciones IP",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Todas las Anteriores son correctas"
-  },
-  {
-    "question": "Dentro del Esquema del Protocolo TCP/IP v4, el esquema de direccionamiento abstracto tiene como Objetivo:",
-    "options": [
-      "Definir un Sistema de Direccionamiento Físico basado en las direcciones de los componentes de red",
-      "Ocultar detalles de redes físicas y ofrecer las características de una red virtual",
-      "Definir un esquema de direccionamiento abstracto asignando a cada Host una Dirección única",
-      "Definir un esquema de direccionamiento automático asignando a cada Host una Dirección Variable",
-      "Ambas a y c",
-      "Ambas b y c",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Ambas b y c"
+    "question": "La Tecnología de uso de comunicaciones celulares que permite múltiples rutas de acceso a múltiples antenas que mejora considerable en cuanto a la velocidad de transferencia, una cobertura mayor, mayor capacidad de más usuarios conectados y una mayor estabilidad se la denomina:",
+    "options": ["WCDMA", "MIMO", "TDMA", "CDMA", "MQAM", "FHSS", "DHSS", "Ninguna de las Anteriores es correcta."],
+    "answer": "MIMO"
   },
   {
-    "question": "Una red que tiene una combinación de Hardware y Software Heterogéneo, que entrega al usuario la apariencia de un sistema de comunicación integrado y uniforme al cual se conectan muchas computadoras se lo denomina:",
-    "options": [
-      "LAN",
-      "Red Virtual",
-      "ISP",
-      "VPN",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Red Virtual"
+    "question": "Dentro de la 1ª Generaciones de Comunicaciones Celulares, el tipo de acceso donde cada corresponsal transmite y recibe información en una frecuencia asignada corresponde a:",
+    "options": ["FDMA", "TDMA", "CDMA", "CSMA CD", "CSMA CA", "Ninguna de las Anteriores es correcta."],
+    "answer": "FDMA"
   },
   {
-    "question": "El Esquema de Datagrama IP nace con la necesidad de trabajar con redes heterogéneas, y permite el paso de un cuadro de una red a otra respetando el paquete original de manera tal de encapsularlo y que el mismo no sea modificado mientras se realice la transmisión:",
+    "question": "Se pueden detallar los siguientes conceptos que caracterizaron a la comunicación celular de la 1ª Generación (1G).",
     "options": [
-      "Verdadero",
-      "Falso"
+      "Comunicaciones Analógicas",
+      "Comunicaciones Digitales",
+      "Solo Comunicaciones de Voz",
+      "Transmisión de SMS",
+      "Velocidad 2,4 KBPS",
+      "Velocidad 2 MBPS",
+      "Ambas a, c y e",
+      "Ambas b, d y f"
     ],
-    "answer": "Verdadero"
+    "answer": "Ambas a, c y e"
   },
   {
-    "question": "Dentro del Esquema del Protocolo TCP/IP el/los componentes que intervienen en el proceso de la comunicación son:",
-    "options": [
-      "Computadora Host",
-      "Routers",
-      "La Pila de protocolos TCP/IP",
-      "Todas las Anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Todas las Anteriores son correctas"
+    "question": "Es el sistema que nos permite realizar llamadas de voz sobre la tecnología 4G o LTE., que utiliza tecnologías para llamadas de voz en internet como el protocolo SIP se lo denomina:",
+    "options": ["IPSec", "LTE-TDD", "SET", "LAA", "VoLTE", "NB-LTE", "Todas las Anteriores son correctas.", "Ninguna de las Anteriores es correcta."],
+    "answer": "VoLTE"
   },
   {
-    "question": "El Router fronterizo (intranet–extranet) que tiene dos o más conexiones balanceadas, dentro de un host o nodo multibase trabaja soportando bajo el protocolo:",
-    "options": [
-      "ICMP",
-      "BGP",
-      "SMTP",
-      "FTP",
-      "SNMP",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "BGP"
+    "question": "Los Estándares de 2ª generación de celulares como GSM/GRPS/EGRPS emplean el tipo de accesos donde varios usuarios comparten una frecuencia, pero transmiten en tiempos diferidos, a esos intervalos se les conoce como (Time Slot) ranuras de tiempo. Dicho tipo de acceso corresponde a:",
+    "options": ["DHSS", "MQAM", "FHSS", "CDMA", "WCDMA", "TDMA", "Ninguna de las Anteriores es Correcta."],
+    "answer": "TDMA"
   },
   {
-    "question": "La Interfaz de programación de aplicaciones que interactúa entre el Sistema Operativo y los Protocolos, que se diseñan para trabajar con aplicaciones concurrentes utilizando un grupo de protocolos y el servicio deseado se lo denomina:",
-    "options": [
-      "Puerto",
-      "Interrupción",
-      "API de Sockets",
-      "Protocolo",
-      "Servicio",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "API de Sockets"
+    "question": "El área delimitada donde se realiza la comunicación efectiva con un teléfono celular en la cual se encaminan las comunicaciones en forma de ondas de radio desde y hasta los terminales de los usuarios se la denomina:",
+    "options": ["WAN", "TELCO", "CELDA", "Espectro Electromagnético.", "SAN", "Ninguna de las Anteriores es correcta."],
+    "answer": "CELDA"
   },
   {
-    "question": "Dentro del Esquema del Protocolo TCP/ IPV4, la dirección IP corresponde a un número de 32 Bits asignado a un Host y usado para todas las comunicaciones con él; a su vez aplica un esquema de jerarquía de direcciones utilizando el prefijo, para identificar a la red física que está conectada y el sufijo para identificar a cada host de la red.",
+    "question": "La implementación de la tecnología 4 G tiene consigo el empleo de las siguientes características:",
     "options": [
-      "Verdadero",
-      "Falso"
+      "Tecnología móvil, que se caracteriza por emplear redes IP.",
+      "Los Datos se transfieren por paquetes conmutados.",
+      "Su velocidad de transferencia puede superar 1 GBPS",
+      "Puede obtener una perfecta recepción para televisión de alta resolución.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Verdadero"
+    "answer": "Todas las anteriores son correctas."
   },
   {
-    "question": "El protocolo simple de Gestión de Red utilizado por los monitores de red para relevar y controlar el desempeño de terminales en la misma se lo denomina:",
-    "options": [
-      "ICMP",
-      "BGP",
-      "SMTP",
-      "FTP",
-      "SNMP",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "SNMP"
+    "question": "Dentro de las distintas generaciones de desarrollo de los celulares, el Smartphone aparece en la:",
+    "options": ["1ª Generación", "2ª Generación", "3ª Generación", "04ª Generación", "5ª Generación", "Ninguna de las Anteriores es correcta."],
+    "answer": "3ª Generación"
   },
   {
-    "question": "Dentro del Esquema del Protocolo TCP/ IP V4, cuando nos referimos a un host multibase o sistema autónomo estamos hablando de:",
-    "options": [
-      "Un host que se conecta a una conexión de red",
-      "Un host que se conecta a varias conexiones de red",
-      "Un host que tiene definido una Intranet",
-      "Un host que tiene definido zonas dentro de su Intranet",
-      "Ambas a y c",
-      "Ambas b y d",
-      "Todas las anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Un host que se conecta a varias conexiones de red"
+    "question": "La tecnología de Celulares 4 G trajo consigo la característica de un gran aumento de ancho de banda, esto fue posible a través de la tecnología de Modulación:",
+    "options": ["MQAM", "OFDM", "TDMA", "CDMA", "2B1Q", "MPSK", "Ninguna de las Anteriores es Correcta"],
+    "answer": "OFDM"
   },
   {
-    "question": "Una Red compartida topología estrella con un conmutador de capa 2 del modelo OSI se vale de direcciones para filtrar los cuadros de entrada a las distintas estaciones; para ello los formatos de direcciones corresponden a:",
-    "options": [
-      "Direcciones Físicas",
-      "Direcciones Dinámicas",
-      "Direcciones Estáticas",
-      "Todas las Anteriores es Correcta",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Direcciones Físicas"
+    "question": "Dentro de la 2ª generación de telefonía celular, con las tecnologías GSM/GPRS/EGPRS, que aplican el tipo de acceso TDMA; la porción de tiempo asignada a cada frecuencia para realizar la comunicación se la denomina:",
+    "options": ["Intervalo", "Salto de tiempo", "Porción", "Time slot", "Ambas a y b", "Ninguna de las Anteriores es correcta."],
+    "answer": "Time slot"
   },
   {
-    "question": "Dentro de una red de dominio con recursos compartidos, la acción de copiar los cuadros en las interfaces de red realizada por un concentrador se la denomina:",
-    "options": [
-      "Enrutamiento",
-      "Conmutación",
-      "Difusión",
-      "Cacheo",
-      "Ubicación",
-      "Copia",
-      "Aviso",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Difusión"
+    "question": "En una Arquitectura de Red Mobile donde conviven las celdas normales o denominadas macro y small cells o denominadas micro se la denomina:",
+    "options": ["HetNet", "Mobile Híbrida", "Backhaul", "Nodo Combinado", "NAT", "FHSS", "DHSS", "Ninguna de las Anteriores es correcta."],
+    "answer": "HetNet"
   },
   {
-    "question": "Dentro del Esquema del Protocolo TCP/ IP V4 De acuerdo con la cantidad máxima de redes y cantidad máxima de hosts por red se define la clase de la red que estamos evaluando para ver si es clase A, B o C.",
+    "question": "La red de Transporte de Datos Mobile que incluyen las antenas de celulares combinado con enlaces de fibra y microondas se la denomina técnicamente:",
     "options": [
-      "Verdadero",
-      "Falso"
+      "Backbone de Comunicaciones",
+      "Troncal de Comunicaciones",
+      "Core de Comunicaciones",
+      "Topología Mobile",
+      "Red de Backhaul",
+      "Red de Tráfico",
+      "Red de Transporte",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Verdadero"
+    "answer": "Red de Backhaul"
   },
   {
-    "question": "Un Cuadro de Tipo Identificable como unidad de transmisión de paquetes en una LAN está compuesto por una cantidad limitada de Bits, que tienen sus formatos de campos como:",
+    "question": "La sección de red telefónica celular encargada del manejo del trafico de voz y de datos, responsable de dirigir y conmutar la llamada se la denomina:",
     "options": [
-      "Preámbulo",
-      "Dirección del Destinatario",
-      "Dirección del Origen",
-      "Tipo de Paquete",
-      "Campo de datos",
-      "Campo CRC",
-      "Todas las anteriores son correctas",
-      "Ninguna de las Anteriores es correcta"
+      "BTS–Base Station Transceiver System",
+      "MS–Mobile Station.",
+      "BSC–Base Station Controller.",
+      "PSTN-Public Switched Telephone Network.",
+      "BT – Transceptor Base.",
+      "HetNet.",
+      "Small Cells.",
+      "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "Todas las anteriores son correctas"
+    "answer": "BSC–Base Station Controller."
   },
   {
-    "question": "Algunos cuadros no identificables se caracterizan por no incluir un campo de Tipo de cabecera de cuadro, por lo tanto, establecen previamente:",
-    "options": [
-      "Acuerdo entre emisor y receptor en el formato de datos a enviar",
-      "Envío de una señal de sincronismo por canal secundario de dos módems, uno maestro y otro esclavo",
-      "Acuerdo de almacenar en el primer byte el tipo de información",
-      "Ambas a y b",
-      "Ambas a y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Acuerdo entre emisor y receptor en el formato de datos a enviar"
+    "question": "El dispositivo similar a nuestro Access Point WI FI pero que emite en la banda de 3G se lo denomina:",
+    "options": ["Gateway", "Extension Point", "Bridge", "Femtocelda", "Modem PLC", "Ninguna de las Anteriores es correcta."],
+    "answer": "Femtocelda"
   },
   {
-    "question": "El Protocolo de Internet versión 4 Ipv4 con los cambios tecnológicos permitió:",
+    "question": "El Canal de comunicaciones establecido de un teléfono celular a una torre de antenas de celulares es de tipo:",
     "options": [
-      "El manejo de Redes Homogéneas Exclusivamente.",
-      "El manejo de Redes Heterogéneas.",
-      "Modelo de Direcciones Independiente del Hardware.",
-      "Modelo de Direcciones Dependiente del Hardware.",
-      "Ambas b y c.",
+      "Analógico y Asincrónico.",
+      "Digital y Sincrónico.",
+      "Simplex.",
+      "Full Duplex.",
       "Ambas a y d.",
+      "Ambas b y c.",
       "Ninguna de las Anteriores es Correcta."
     ],
-    "answer": "Ambas b y c."
+    "answer": "Ambas a y d."
   },
   {
-    "question": "El Proxy WAP traduce las peticiones WAP a peticiones Web, de forma que el cliente WAP (el terminal inalámbrico) pueda realizar peticiones de información al servidor Web. Adicionalmente este Proxy codifica las respuestas del servidor Web en un formato binario compacto, que es interpretable por el cliente.",
+    "question": "El Primer teléfono celular prototipo fabricado por IBM en 1992 que podía hacer y recibir llamadas telefónicas, faxes, correos electrónicos, que poseía un procesador de 16-bits a una velocidad de 16 MHz compatible con computadores de arquitectura x86 y solo tenía 1 MB de memoria RAM y 1 MB de almacenamiento, correspondía a:",
     "options": [
-      "Verdadero.",
-      "Falso."
-    ],
-    "answer": "Verdadero."
-  },
-  {
-    "question": "Dentro del Esquema del Protocolo TCP/IP V4 de acuerdo a la cantidad mínima de redes y cantidad mínima de hosts por red se define la clase de la red que estamos evaluando para ver si es clase A, B o C.",
-    "options": [
-      "Verdadero.",
-      "Falso."
-    ],
-    "answer": "Falso."
-  },
-  {
-    "question": "El protocolo estándar utilizado para mostrar información en pequeñas pantallas a través de conexiones celulares, basado en Wireless Markup Language (WML) (similar al HTML), preparado para que el cliente no requiera en sus dispositivos teclado o Mouse se lo denomina:",
-    "options": [
-      "WHOIS.",
-      "ICMP.",
-      "TraceRoute.",
-      "WAP.",
-      "Spoofing",
+      "Simon",
+      "BlackBerry 5810.",
+      "DynaTAC 8000x",
+      "Handie Talkie H-12-16.",
+      "Motorola PT-300",
       "Ninguna de las Anteriores es correcta."
     ],
-    "answer": "WAP."
+    "answer": "Simon"
   },
   {
-    "question": "Dentro Protocolo de Internet Versión 6 Ipv6, la dirección posee 3 campos de elementos hexadecimales que corresponden a:",
-    "options": [
-      "Primeros 48 bits que corresponden al prefijo del sitio.",
-      "Primeros 32 bits que corresponden al sufijo del sitio.",
-      "Segundos 16 bits que corresponde al Identificador de Subred.",
-      "Segundos 32 bits que corresponde al Identificador de Subred.",
-      "Últimos 64 bits que corresponden a la dirección MAC del elemento.",
-      "Últimos 64 bits que corresponden a la dirección IPv4 del elemento.",
-      "Ambas a, c y e.",
-      "Ninguna de las Anteriores es correcta."
-    ],
-    "answer": "Ambas a, c y e."
+    "question": "La tecnología LTE (Log Term Evolution) de la 4ª generación de Celulares utiliza como tipo de acceso para sus comunicaciones:",
+    "options": ["OFDM", "OFDM/MIMO", "TDMA", "CDMA", "CSMA CA", "CSMA CD", "Ninguna de las Anteriores es Correcta."],
+    "answer": "OFDM/MIMO"
   },
   {
-    "question": "Los Protocolos más utilizados en Telefonía sobre IP corresponden a:",
-    "options": [
-      "ICMP.",
-      "H323.",
-      "SMTP.",
-      "SIP.",
-      "Ambas A y B.",
-      "Ambas B y D.",
-      "Ninguna de las Anteriores es Correcta."
-    ],
-    "answer": "Ambas B y D."
+    "question": "El tipo de acceso en esquemas de 2ª y 3ª generación donde varios suscriptores transmiten en la misma frecuencia y al mismo tiempo, pero con códigos diferentes, que solamente puede ser codificado por el usuario final, se la denomina:",
+    "options": ["FDMA", "TDMA", "CSMA CD", "CDMA", "CSMA CA", "Ninguna de las Anteriores es correcta."],
+    "answer": "CDMA"
   },
   {
-    "question": "Dentro del Esquema del Protocolo TCP/IP V4, la dirección IP corresponde a un número de 34 Bits asignado a un Host y usado para todas las comunicaciones con él; a su vez aplica un esquema de jerarquía de direcciones utilizando el prefijo, para identificar a la red física que está conectada y el sufijo para identificar a cada host de la red.",
+    "question": "La Tecnología emergente basada en el uso de los teléfonos celulares que permiten conectarse a través a redes Wifi corresponde a:",
     "options": [
-      "Verdadero.",
-      "Falso."
-    ],
-    "answer": "Falso."
-  },
-  {
-    "question": "Dentro de la estructura del Protocolo H323 para telefonía IP, podemos decir que el Gatekeeper tiene la función de:",
-    "options": [
-      "Iniciar de la Llamada.",
-      "Autorizar y Rutear la Llamada.",
-      "Convertir los Paquetes IP a paquetes de Voz.",
-      "Realizar el Control Multipunto.",
-      "Controlar el Clúster redundante.",
-      "Ninguna de las Anteriores es correcta."
-    ],
-    "answer": "Autorizar y Rutear la Llamada."
-  },
-  {
-    "question": "El Protocolo de Internet Versión 6 Ipv6 posee un espacio de direcciones de 128 Bits. Los cambios en las cabeceras del Datagrama (Flujo Continuo de datos) permiten mejorar la calidad de transmisión de audio y video.",
-    "options": [
-      "Verdadero.",
-      "Falso."
-    ],
-    "answer": "Verdadero."
-  },
-  {
-    "question": "El Esquema de Datagrama IP nace con la necesidad de trabajar con redes homogéneas, y permite el paso de un cuadro de una red a otra respetando el paquete original de manera tal de encapsularlo y que el mismo sea modificado mientras se realice la transmisión:",
-    "options": [
-      "Verdadero.",
-      "Falso."
-    ],
-    "answer": "Falso."
-  },
-  {
-  "question": "Dada una dirección clase B y máscara 255.255.255.240 ¿cuál es el máximo número de hosts y subredes útiles?",
-  "options": [
-    "Redes = 16; Hosts = 16",
-    "Redes = 4096; Hosts = 14",
-    "Redes = 4094; Hosts = 16",
-    "Redes = 4094; Hosts = 14",
-    "Redes = 4098; Hosts = 14",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Redes = 4094; Hosts = 14"
-},
-{
-  "question": "Dentro de la siguiente dirección IPv6 el sufijo marcado o los últimos 64 bits corresponden a:",
-  "options": [
-    "Identificador de Subred.",
-    "Identificador de Sitio.",
-    "ID de interfaz de Red o MAC.",
-    "Token",
-    "Ambas c y d.",
-    "Ninguna de las anteriores es Correcta."
-  ],
-  "answer": "Ambas c y d."
-},
-{
-  "question": "¿Qué clase de dirección IP me brinda la mayor cantidad de redes?",
-  "options": [
-    "Clase A.",
-    "Clase B.",
-    "Clase C.",
-    "Clase D.",
-    "Clase E.",
-    "Ninguna de las Anteriores es correcta."
-  ],
-  "answer": "Clase C."
-},
-{
-  "question": "¿Cuáles son los host válidos para 199.37.2.33/29?",
-  "options": [
-    "199.37.2.33 — 199.37.2.64",
-    "199.37.2.32 — 199.37.2.47",
-    "199.37.2.33 — 199.37.2.47",
-    "199.37.2.33 — 199.37.2.38",
-    "199.37.0.0 — 199.37.255.254",
-    "Ninguna de las Anteriores es correcta."
-  ],
-  "answer": "199.37.2.33 — 199.37.2.38"
-},
-{
-  "question": "¿Cuál es el rango de direcciones válidas para la dirección IP 222.37.2.50/24?",
-  "options": [
-    "222.37.2.49 — 222.37.2.62",
-    "222.37.2.48 — 222.37.2.66",
-    "222.37.2.1 — 222.37.2.254",
-    "222.37.0.0 — 222.37.255.254",
-    "222.37.2.0 — 222.37.2.255",
-    "Ninguna de las Anteriores es correcta."
-  ],
-  "answer": "222.37.2.1 — 222.37.2.254"
-},
-{
-  "question": "¿Sobre qué Subnet está el host 200.1.1.99/27?",
-  "options": [
-    "200.1.1.16",
-    "200.1.1.0",
-    "200.1.1.64",
-    "200.1.1.96",
-    "200.1.1.128",
-    "Ninguna de las Anteriores es correcta."
-  ],
-  "answer": "200.1.1.96"
-},
-{
-  "question": "Identifique la dirección de broadcast, dada la dirección IP 201.100.178.36 255.255.255.224",
-  "options": [
-    "201.100.178.64",
-    "201.100.178.63",
-    "201.100.255.255",
-    "201.100.78.255",
-    "201.255.255.255",
-    "255.255.255.255",
-    "Ninguna de las Anteriores es Correcta."
-  ],
-  "answer": "201.100.178.63"
-},
-{
-  "question": "El Siguiente Rango de direcciones IPv4 172.16.0.0 — 172.31.0.0 Representa a:",
-  "options": [
-    "Direcciones broadcast.",
-    "Direcciones de broadcast dirigido.",
-    "Direcciones Clase E.",
-    "Direcciones privadas.",
-    "Direcciones Multicast.",
-    "Direcciones Clase A.",
-    "Direcciones Clase D.",
-    "Ninguna de las Anteriores es correcta."
-  ],
-  "answer": "Direcciones privadas."
-},
-{
-  "question": "¿Qué clase de dirección tiene la menor cantidad de hosts para direccionar?",
-  "options": [
-    "Clase A.",
-    "Clase B.",
-    "Clase C.",
-    "Clase D.",
-    "Clase E.",
-    "Ninguna de las Anteriores es Correcta."
-  ],
-  "answer": "Clase C."
-},
-{
-  "question": "Dada la dirección 157.89.0.64 y la máscara 255.255.0.0 ¿qué parte representa la porción de host?",
-  "options": [
-    "0.0.0.66",
-    "0.89.8.64",
-    "0.0.0.68",
-    "157.0.0.0",
-    "157.89.0.0",
-    "Ninguna de las anteriores es Correcta."
-  ],
-  "answer": "Ninguna de las anteriores es Correcta."
-},
-{
-    "question": "¿Cuáles de las siguientes redes no pueden ser ruteadas públicamente?",
-    "options": [
-      "11.0.0.0",
-      "255.0.0.0",
-      "192.168.0.0",
-      "172.66.90.0",
+      "SMALL CELLS",
+      "WIFI HIBRID",
+      "WIFI OFFLOAD",
+      "TRUSTED WIFI",
+      "WIFI AAA",
+      "WIFI DIRECT NETWORK",
+      "Todas las Anteriores son correctas.",
       "Ninguna de las Anteriores es correcta"
     ],
-    "answer": "192.168.0.0"
-  },
-  {
-    "question": "Dada la dirección IP 140.90.109.120 con máscara 255.255.255.240. ¿En qué subnet está?",
-    "options": [
-      "140.90.109.0",
-      "140.90.109.96",
-      "140.90.109.112",
-      "140.90.109.128",
-      "148.90.109.112",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "140.90.109.112"
-  },
-  {
-    "question": "¿Cuáles de las siguientes redes se pueden ser ruteadas públicamente?",
-    "options": [
-      "192.168.0.0",
-      "10.0.0.0",
-      "172.16.0.0",
-      "200.0.0.0",
-      "200.0.0.255",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "200.0.0.0"
-  },
-  {
-    "question": "Identifique la dirección de broadcast, dada la dirección IP 201.100.178.36 con máscara 255.255.255.224",
-    "options": [
-      "201.100.178.63",
-      "201.255.255.255",
-      "201.100.78.255",
-      "255.255.255.255",
-      "Ambas a y b",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "201.100.178.63"
-  },
-  {
-    "question": "¿Cuál es la máscara de red correcta para la dirección 229.76.25.11 /26?",
-    "options": [
-      "255.255.255.0",
-      "255.255.255.224",
-      "255.255.255.192",
-      "255.255.255.240",
-      "Ambas a y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "255.255.255.192"
-  },
-  {
-    "question": "Identifique la clase de direcciones IP con su máscara por default.",
-    "options": [
-      "Clase B; /8",
-      "Clase C; 255.255.255.0",
-      "Clase B; 255.255.255.0",
-      "Clase B; 255.0.0.0",
-      "Ambas a y b",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "Clase C; 255.255.255.0"
-  },
-  {
-    "question": "Usted tiene la dirección IP 172.16.3.57 con 11 bits de subnet. ¿Cuál es el rango de direcciones válidas?",
-    "options": [
-      "172.16.3.32 a 172.16.3.62",
-      "172.16.3.34 a 172.16.3.62",
-      "172.16.3.33 a 172.16.3.62",
-      "172.16.3.32 a 172.16.3.69",
-      "172.16.3.32 a 172.16.3.57",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "172.16.3.33 a 172.16.3.62"
-  },
-  {
-    "question": "La dirección IP 172.16.5.10 con máscara 255.255.255.0, ¿a qué dirección de red pertenece ese host y cuál es su dirección de broadcast?",
-    "options": [
-      "172.16.0.0 Broadcast = 172.16.5.255",
-      "172.16.5.0 Broadcast = 172.16.5.255",
-      "172.0.0.0 Broadcast = 255.0.0.0",
-      "172.0.0.0 Broadcast = 255.255.255.255",
-      "Ambas a y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "172.16.5.0 Broadcast = 172.16.5.255"
-  },
-  {
-    "question": "¿Cuál es el rango de direcciones válidas para la dirección 161.37.2.50 con 12 bits de subnetting?",
-    "options": [
-      "161.37.2.49 — 161.37.2.62",
-      "61.37.0.0 — 161.37.255.254",
-      "161.37.2.0 — 161.37.2.254",
-      "162.37.2.49 — 162.37.2.62",
-      "Ambas a y b",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "161.37.2.49 — 161.37.2.62"
-  },
-  {
-    "question": "Basados en la regla del primer octeto, ¿cuál es el rango de direcciones para la clase C?",
-    "options": [
-      "222--255",
-      "192--200",
-      "192--224",
-      "192—223",
-      "Ambas b y c",
-      "Ninguna de las Anteriores es correcta"
-    ],
-    "answer": "192—223"
-  },
-  {
-  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de las siguientes opciones es verdadera?",
-  "options": [
-    "RIP – Vector Distancia Enlace",
-    "EIRGP - Estado de Enlace",
-    "OSPF – Estado enlace",
-    "BGP – Vector distancia Mejorado",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "OSPF – Estado enlace"
-},
-{
-  "question": "Dado el siguiente esquema determinar cuál es la ruta estática correcta.",
-  "options": [
-    "ip route 20.0.0.0 255.0.0.0 172.168.1.1",
-    "ip route 20.0.0.0 255.0.0.0 192.168.1.1",
-    "ip route 20.0.0.0 255.0.0.0 222.168.1.1",
-    "ip route 20.0.0.0 255.0.0.0 072.168.1.1",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "ip route 20.0.0.0 255.0.0.0 172.168.1.1"
-},
-{
-  "question": "¿Cuál de las siguientes opciones es correcta respecto de los comandos para configurar una interfaz?",
-  "options": [
-    "(Router_config)# interface serial 0/0 (Router_config)# Ip address 192.168.1.2 255.255.0",
-    "(Router_config)# interface serial 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0",
-    "(Router_config)# interface serial_ethernet 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0",
-    "Ninguna de las Anteriores es Correcta"
-  ],
-  "answer": "(Router_config)# interface serial 0/0 (Router_config_if)# Ip address 192.168.1.2 255.255.255.0"
-},
-{
-  "question": "¿Cuál de los siguientes comandos es correcto para pasar de modo usuario a modo privilegiado?",
-  "options": [
-    "Exit.",
-    "Enable password.",
-    "Enable.",
-    "Enable secret.",
-    "Ninguna de las Anteriores es Correcta"
-  ],
-  "answer": "Enable."
-},
-{
-  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de los siguientes Comandos es válido para la configuración de los protocolos de enrutamiento dinámico?",
-  "options": [
-    "Network RIP",
-    "Network “Nro.de red”.",
-    "Network Sist Autonomo.",
-    "Network “Nro Ip + Máscara“.",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Network “Nro.de red”."
-},
-{
-  "question": "Protocolos de Ruteo Dinámico: ¿Cuál de los siguientes Comandos es válido para la configuración de los protocolos de enrutamiento dinámico?",
-  "options": [
-    "Router AFT.",
-    "Router EIGRP 200.",
-    "Router FTP.",
-    "Router OPDF.",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Router EIGRP 200."
-},
-{
-  "question": "Para ingresar en el modo de configuración global se debe hacer desde:",
-  "options": [
-    "Modo Usuario.",
-    "Modo dinámico.",
-    "Modo global.",
-    "Modo privilegiado.",
-    "Modo protegido",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Modo privilegiado."
-},
-{
-  "question": "Configuración de protocolo de Ruteo dinámico, ¿qué redes debo configurar?",
-  "options": [
-    "Las redes correspondientes a toda la red.",
-    "Las redes directamente conectadas al Router.",
-    "Las Subredes del Sistema Autónomo.",
-    "Las redes directamente conectadas al Firewall",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Las redes directamente conectadas al Router."
-},
-{
-  "question": "Comandos de Cisco: indique la secuencia correcta de comandos para iniciar el uso del modo Global:",
-  "options": [
-    "Router>; enable; Router# configure terminal -> Router(config_if)#",
-    "Router>; enable; Router# configure terminal -> Router(config)#",
-    "Router>; enable; Router# configure interface -> Router(config) #",
-    "Router>; enable; Router# RIP",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Router>; enable; Router# configure terminal -> Router(config)#"
-},
-{
-  "question": "¿Cuál de los siguientes comandos se utiliza para poder ver la tabla de Ruteo dentro de Cisco?",
-  "options": [
-    "Show Router.",
-    "Show Debug.",
-    "Show ip Route.",
-    "Show interfaces.",
-    "Ninguna de las Anteriores es correcta"
-  ],
-  "answer": "Show ip Route."
-}
-
-    ];
+    "answer": "WIFI OFFLOAD"
+  }
+];
